@@ -5,33 +5,28 @@ using UnityEngine.LowLevelPhysics2D;
 
 public class Weapons : MonoBehaviour
 {
-
-    public float bulletSpeed = 5f;
-    public float laserSpeed = 10f;
-    
-    private SpriteRenderer bulletSprite;
+    Bullet bullet;
     // Two kinds of weapons: bullets and lasers
     void Awake()
     {
-
+    bullet = GetComponent<Bullet>();
     }
 
     void Update()
     {
         if (Keyboard.current.spaceKey.isPressed)
         {
-            ShootGun();
+            ShootLaser();
         }
-    }
-
-    void ShootGun()
-    {
-        //Shoot bullet from the gun
-        return;
     }
 
     void ShootLaser()
     {
-        //shoots a laser
+        Instantiate(bullet, transform.position, transform.rotation);
+    }
+
+    void ShootGun()
+    {
+        //shoots a gun
     }
 }
