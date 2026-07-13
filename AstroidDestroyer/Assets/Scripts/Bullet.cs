@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] float bulletSpeed = 5f;
-    [SerializeField] float range = 100f;
+    [SerializeField] float range = 10f;
     Vector3 originalPosition;
     private float distance;
 
@@ -18,10 +18,10 @@ public class Bullet : MonoBehaviour
     {
         distance = Vector3.Distance(transform.position, originalPosition);
         BulletMovement();
-        //if (distance > range)
-        //{
-        //    Destroy(gameObject);
-        //}
+        if (distance > range)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void BulletMovement()
