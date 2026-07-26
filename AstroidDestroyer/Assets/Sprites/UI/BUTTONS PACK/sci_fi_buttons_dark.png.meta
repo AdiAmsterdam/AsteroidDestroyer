@@ -1,0 +1,5421 @@
+fileFormatVersion: 2
+guid: 9b011b88788eb02478211b0d9fbc198b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3869277784170246565
+    second: sci_fi_buttons_dark_0
+  - first:
+      213: -9028985339404075863
+    second: sci_fi_buttons_dark_1
+  - first:
+      213: -5054022582960877598
+    second: sci_fi_buttons_dark_2
+  - first:
+      213: 6476072545707534817
+    second: sci_fi_buttons_dark_3
+  - first:
+      213: 8784928531554217419
+    second: sci_fi_buttons_dark_4
+  - first:
+      213: 4171894197170915766
+    second: sci_fi_buttons_dark_5
+  - first:
+      213: 2869155665574005902
+    second: sci_fi_buttons_dark_6
+  - first:
+      213: -8408070362256524798
+    second: sci_fi_buttons_dark_7
+  - first:
+      213: 8427506130828222147
+    second: sci_fi_buttons_dark_8
+  - first:
+      213: -6907086865334404519
+    second: sci_fi_buttons_dark_9
+  - first:
+      213: 845786865207226377
+    second: sci_fi_buttons_dark_10
+  - first:
+      213: -6564643939537113731
+    second: sci_fi_buttons_dark_11
+  - first:
+      213: 8040902294242939780
+    second: sci_fi_buttons_dark_12
+  - first:
+      213: -7649821677382886605
+    second: sci_fi_buttons_dark_13
+  - first:
+      213: -6974486392978486722
+    second: sci_fi_buttons_dark_14
+  - first:
+      213: 1314271031697189937
+    second: sci_fi_buttons_dark_15
+  - first:
+      213: -1691949030433844714
+    second: sci_fi_buttons_dark_16
+  - first:
+      213: -1783330475673266829
+    second: sci_fi_buttons_dark_17
+  - first:
+      213: -1478288353395757703
+    second: sci_fi_buttons_dark_18
+  - first:
+      213: 7218834043242397381
+    second: sci_fi_buttons_dark_19
+  - first:
+      213: 571842250350635053
+    second: sci_fi_buttons_dark_20
+  - first:
+      213: 5811916246925533078
+    second: sci_fi_buttons_dark_21
+  - first:
+      213: 6024295992190136321
+    second: sci_fi_buttons_dark_22
+  - first:
+      213: 8396706859694765951
+    second: sci_fi_buttons_dark_23
+  - first:
+      213: 725219631804545015
+    second: sci_fi_buttons_dark_24
+  - first:
+      213: 6569426394475908443
+    second: sci_fi_buttons_dark_25
+  - first:
+      213: -7505388755345876646
+    second: sci_fi_buttons_dark_26
+  - first:
+      213: 6504169794553856950
+    second: sci_fi_buttons_dark_27
+  - first:
+      213: -3184420852692671885
+    second: sci_fi_buttons_dark_28
+  - first:
+      213: 866987575753778891
+    second: sci_fi_buttons_dark_29
+  - first:
+      213: 7324065791178860604
+    second: sci_fi_buttons_dark_30
+  - first:
+      213: 7160782801156774591
+    second: sci_fi_buttons_dark_31
+  - first:
+      213: 4743287500907791676
+    second: sci_fi_buttons_dark_32
+  - first:
+      213: -5666921913174058559
+    second: sci_fi_buttons_dark_33
+  - first:
+      213: -6218921727439530482
+    second: sci_fi_buttons_dark_34
+  - first:
+      213: -3495873305125702946
+    second: sci_fi_buttons_dark_35
+  - first:
+      213: 6306641057926974568
+    second: sci_fi_buttons_dark_36
+  - first:
+      213: 8177370786476680635
+    second: sci_fi_buttons_dark_37
+  - first:
+      213: -8252423575374462102
+    second: sci_fi_buttons_dark_38
+  - first:
+      213: 6211420004482798059
+    second: sci_fi_buttons_dark_39
+  - first:
+      213: -7730520128533611683
+    second: sci_fi_buttons_dark_40
+  - first:
+      213: 5756310836581675208
+    second: sci_fi_buttons_dark_41
+  - first:
+      213: 4985492989225153889
+    second: sci_fi_buttons_dark_42
+  - first:
+      213: 8143202685568972324
+    second: sci_fi_buttons_dark_43
+  - first:
+      213: -3494356263378498976
+    second: sci_fi_buttons_dark_44
+  - first:
+      213: 3527640534222070144
+    second: sci_fi_buttons_dark_45
+  - first:
+      213: -3754760802213100276
+    second: sci_fi_buttons_dark_46
+  - first:
+      213: -1822695774962168471
+    second: sci_fi_buttons_dark_47
+  - first:
+      213: 3304887228323629376
+    second: sci_fi_buttons_dark_48
+  - first:
+      213: 4300411844065372953
+    second: sci_fi_buttons_dark_49
+  - first:
+      213: -4710204293596399942
+    second: sci_fi_buttons_dark_50
+  - first:
+      213: 3098223332025193088
+    second: sci_fi_buttons_dark_51
+  - first:
+      213: -8749230220206142032
+    second: sci_fi_buttons_dark_52
+  - first:
+      213: -5269085700912390176
+    second: sci_fi_buttons_dark_53
+  - first:
+      213: 2918281632925940060
+    second: sci_fi_buttons_dark_54
+  - first:
+      213: -5946999986233140663
+    second: sci_fi_buttons_dark_55
+  - first:
+      213: -6901888088518168959
+    second: sci_fi_buttons_dark_56
+  - first:
+      213: 4426291929898909094
+    second: sci_fi_buttons_dark_57
+  - first:
+      213: -4385693937863249536
+    second: sci_fi_buttons_dark_58
+  - first:
+      213: 7357242330686460920
+    second: sci_fi_buttons_dark_59
+  - first:
+      213: -33602607114930169
+    second: sci_fi_buttons_dark_60
+  - first:
+      213: 8084665422400493375
+    second: sci_fi_buttons_dark_61
+  - first:
+      213: -1185629332406501242
+    second: sci_fi_buttons_dark_62
+  - first:
+      213: 7501180515992917478
+    second: sci_fi_buttons_dark_63
+  - first:
+      213: -6925416033065522873
+    second: sci_fi_buttons_dark_64
+  - first:
+      213: -7242616781332381322
+    second: sci_fi_buttons_dark_65
+  - first:
+      213: 973058273752057389
+    second: sci_fi_buttons_dark_66
+  - first:
+      213: 3591939035405303443
+    second: sci_fi_buttons_dark_67
+  - first:
+      213: 3057502472104780548
+    second: sci_fi_buttons_dark_68
+  - first:
+      213: 4988276508297438496
+    second: sci_fi_buttons_dark_69
+  - first:
+      213: -8889918880622603374
+    second: sci_fi_buttons_dark_70
+  - first:
+      213: -617104934667135796
+    second: sci_fi_buttons_dark_71
+  - first:
+      213: 5180681758675025197
+    second: sci_fi_buttons_dark_72
+  - first:
+      213: 4899420482656319582
+    second: sci_fi_buttons_dark_73
+  - first:
+      213: 8295492511570531938
+    second: sci_fi_buttons_dark_74
+  - first:
+      213: 1847907134698636071
+    second: sci_fi_buttons_dark_75
+  - first:
+      213: 3433085667267670735
+    second: sci_fi_buttons_dark_76
+  - first:
+      213: -8255782265794287949
+    second: sci_fi_buttons_dark_77
+  - first:
+      213: -3925048146873636444
+    second: sci_fi_buttons_dark_78
+  - first:
+      213: -1972192686867452027
+    second: sci_fi_buttons_dark_79
+  - first:
+      213: -8737592768746474071
+    second: sci_fi_buttons_dark_80
+  - first:
+      213: 4197060939347836590
+    second: sci_fi_buttons_dark_81
+  - first:
+      213: -1935149823881062567
+    second: sci_fi_buttons_dark_82
+  - first:
+      213: 36784598936010270
+    second: sci_fi_buttons_dark_83
+  - first:
+      213: -4548750342477438416
+    second: sci_fi_buttons_dark_84
+  - first:
+      213: 5219158067325618516
+    second: sci_fi_buttons_dark_85
+  - first:
+      213: -1300738371742156324
+    second: sci_fi_buttons_dark_86
+  - first:
+      213: 5754135942622765510
+    second: sci_fi_buttons_dark_87
+  - first:
+      213: 4654685956000361141
+    second: sci_fi_buttons_dark_88
+  - first:
+      213: -5148052073133999567
+    second: sci_fi_buttons_dark_89
+  - first:
+      213: -8768350563857885770
+    second: sci_fi_buttons_dark_90
+  - first:
+      213: 7659404854132384834
+    second: sci_fi_buttons_dark_91
+  - first:
+      213: 2446869453683776174
+    second: sci_fi_buttons_dark_92
+  - first:
+      213: 4698587446963981738
+    second: sci_fi_buttons_dark_93
+  - first:
+      213: 4022008065362806132
+    second: sci_fi_buttons_dark_94
+  - first:
+      213: -5845640983579748301
+    second: sci_fi_buttons_dark_95
+  - first:
+      213: 1191422775085217664
+    second: sci_fi_buttons_dark_96
+  - first:
+      213: -6536573586165503064
+    second: sci_fi_buttons_dark_97
+  - first:
+      213: 698646433207752435
+    second: sci_fi_buttons_dark_98
+  - first:
+      213: 1626685109430429484
+    second: sci_fi_buttons_dark_99
+  - first:
+      213: -286046983648345962
+    second: sci_fi_buttons_dark_100
+  - first:
+      213: -513400699821940954
+    second: sci_fi_buttons_dark_101
+  - first:
+      213: 3333941552035662154
+    second: sci_fi_buttons_dark_102
+  - first:
+      213: -1443762517295617520
+    second: sci_fi_buttons_dark_103
+  - first:
+      213: 785109821178438810
+    second: sci_fi_buttons_dark_104
+  - first:
+      213: -5781352433785997742
+    second: sci_fi_buttons_dark_105
+  - first:
+      213: 8771355984500063012
+    second: sci_fi_buttons_dark_106
+  - first:
+      213: 7927466779953807571
+    second: sci_fi_buttons_dark_107
+  - first:
+      213: -615583530054515708
+    second: sci_fi_buttons_dark_108
+  - first:
+      213: 5011448409907257520
+    second: sci_fi_buttons_dark_109
+  - first:
+      213: -5391854971077035577
+    second: sci_fi_buttons_dark_110
+  - first:
+      213: -7347227252002431437
+    second: sci_fi_buttons_dark_111
+  - first:
+      213: -8216823873307817957
+    second: sci_fi_buttons_dark_112
+  - first:
+      213: 3333819640166591711
+    second: sci_fi_buttons_dark_113
+  - first:
+      213: 7375419031530908469
+    second: sci_fi_buttons_dark_114
+  - first:
+      213: 4950562985767431934
+    second: sci_fi_buttons_dark_115
+  - first:
+      213: -7451309434345523993
+    second: sci_fi_buttons_dark_116
+  - first:
+      213: -8381070745283019782
+    second: sci_fi_buttons_dark_117
+  - first:
+      213: -3498635707906891075
+    second: sci_fi_buttons_dark_118
+  - first:
+      213: 8385983224774517529
+    second: sci_fi_buttons_dark_119
+  - first:
+      213: 6232268226289489295
+    second: sci_fi_buttons_dark_120
+  - first:
+      213: 3287841588857621845
+    second: sci_fi_buttons_dark_121
+  - first:
+      213: 7082612623090203181
+    second: sci_fi_buttons_dark_122
+  - first:
+      213: -1940949903873212018
+    second: sci_fi_buttons_dark_123
+  - first:
+      213: 8865387903488945278
+    second: sci_fi_buttons_dark_124
+  - first:
+      213: 1964552296143796881
+    second: sci_fi_buttons_dark_125
+  - first:
+      213: 755281840424414679
+    second: sci_fi_buttons_dark_126
+  - first:
+      213: 6910692348061836703
+    second: sci_fi_buttons_dark_127
+  - first:
+      213: 353440086960924782
+    second: sci_fi_buttons_dark_128
+  - first:
+      213: -2895319910610390354
+    second: sci_fi_buttons_dark_129
+  - first:
+      213: 4062264275722179408
+    second: sci_fi_buttons_dark_130
+  - first:
+      213: -3010154900099058273
+    second: sci_fi_buttons_dark_131
+  - first:
+      213: 8099765101352590027
+    second: sci_fi_buttons_dark_132
+  - first:
+      213: -7670960043181893959
+    second: sci_fi_buttons_dark_133
+  - first:
+      213: 1552094166476585080
+    second: sci_fi_buttons_dark_134
+  - first:
+      213: 6683865451688125859
+    second: sci_fi_buttons_dark_135
+  - first:
+      213: 7821680612818211811
+    second: sci_fi_buttons_dark_136
+  - first:
+      213: 8601221234007536724
+    second: sci_fi_buttons_dark_137
+  - first:
+      213: 8183385548249112741
+    second: sci_fi_buttons_dark_138
+  - first:
+      213: -8870819566301460582
+    second: sci_fi_buttons_dark_139
+  - first:
+      213: -94198981087951093
+    second: sci_fi_buttons_dark_140
+  - first:
+      213: 1722248830324907655
+    second: sci_fi_buttons_dark_141
+  - first:
+      213: 4281892199197623528
+    second: sci_fi_buttons_dark_142
+  - first:
+      213: 8788937722234139148
+    second: sci_fi_buttons_dark_143
+  - first:
+      213: 7383816469592328784
+    second: sci_fi_buttons_dark_144
+  - first:
+      213: -3401201388973166188
+    second: sci_fi_buttons_dark_145
+  - first:
+      213: -5069205684273634470
+    second: sci_fi_buttons_dark_146
+  - first:
+      213: 4318474566263460109
+    second: sci_fi_buttons_dark_147
+  - first:
+      213: -8035132550819420106
+    second: sci_fi_buttons_dark_148
+  - first:
+      213: 8252195725970770966
+    second: sci_fi_buttons_dark_149
+  - first:
+      213: -223471083489551684
+    second: sci_fi_buttons_dark_150
+  - first:
+      213: -2248643724943995681
+    second: sci_fi_buttons_dark_151
+  - first:
+      213: 6590499753089904475
+    second: sci_fi_buttons_dark_152
+  - first:
+      213: 6066095859372929059
+    second: sci_fi_buttons_dark_153
+  - first:
+      213: 3378333574165542763
+    second: sci_fi_buttons_dark_154
+  - first:
+      213: -9212547676284116123
+    second: sci_fi_buttons_dark_155
+  - first:
+      213: 6524380195627531177
+    second: sci_fi_buttons_dark_156
+  - first:
+      213: 691505493035475052
+    second: sci_fi_buttons_dark_157
+  - first:
+      213: 3573138024828438863
+    second: sci_fi_buttons_dark_158
+  - first:
+      213: 6289634030054339190
+    second: sci_fi_buttons_dark_159
+  - first:
+      213: -5703634932986046032
+    second: sci_fi_buttons_dark_160
+  - first:
+      213: 2414744893912573802
+    second: sci_fi_buttons_dark_161
+  - first:
+      213: 4550672318947713901
+    second: sci_fi_buttons_dark_162
+  - first:
+      213: 4314871931333753677
+    second: sci_fi_buttons_dark_163
+  - first:
+      213: 2180765360815511260
+    second: sci_fi_buttons_dark_164
+  - first:
+      213: -410176034819619411
+    second: sci_fi_buttons_dark_165
+  - first:
+      213: 4581289168298599091
+    second: sci_fi_buttons_dark_166
+  - first:
+      213: 2483286926868066919
+    second: sci_fi_buttons_dark_167
+  - first:
+      213: 8957916498570198100
+    second: sci_fi_buttons_dark_168
+  - first:
+      213: -6114728109493129273
+    second: sci_fi_buttons_dark_169
+  - first:
+      213: -3541597000299444857
+    second: sci_fi_buttons_dark_170
+  - first:
+      213: -3308189411936891654
+    second: sci_fi_buttons_dark_171
+  - first:
+      213: 2920388240120903210
+    second: sci_fi_buttons_dark_172
+  - first:
+      213: -2660242546408929319
+    second: sci_fi_buttons_dark_173
+  - first:
+      213: -4140050161230724678
+    second: sci_fi_buttons_dark_174
+  - first:
+      213: -8506837638970720384
+    second: sci_fi_buttons_dark_175
+  - first:
+      213: -5070193132126312884
+    second: sci_fi_buttons_dark_176
+  - first:
+      213: -6852895807186465875
+    second: sci_fi_buttons_dark_177
+  - first:
+      213: -5409330011669495562
+    second: sci_fi_buttons_dark_178
+  - first:
+      213: -3341338636311985708
+    second: sci_fi_buttons_dark_179
+  - first:
+      213: -7172766227555437041
+    second: sci_fi_buttons_dark_180
+  - first:
+      213: -8167279781983369414
+    second: sci_fi_buttons_dark_181
+  - first:
+      213: -8245317598858575145
+    second: sci_fi_buttons_dark_182
+  - first:
+      213: -8085441406249382309
+    second: sci_fi_buttons_dark_183
+  - first:
+      213: -682441987954055517
+    second: sci_fi_buttons_dark_184
+  - first:
+      213: 3876826798369991001
+    second: sci_fi_buttons_dark_185
+  - first:
+      213: 1100804380426972184
+    second: sci_fi_buttons_dark_186
+  - first:
+      213: 5756860740211372566
+    second: sci_fi_buttons_dark_187
+  - first:
+      213: -2637508432681718262
+    second: sci_fi_buttons_dark_188
+  - first:
+      213: 8400292979186567611
+    second: sci_fi_buttons_dark_189
+  - first:
+      213: 3686755314758086376
+    second: sci_fi_buttons_dark_190
+  - first:
+      213: -4813217422642022239
+    second: sci_fi_buttons_dark_191
+  - first:
+      213: -1449144857134262928
+    second: sci_fi_buttons_dark_192
+  - first:
+      213: 8372027715644798653
+    second: sci_fi_buttons_dark_193
+  - first:
+      213: 8201463088271207020
+    second: sci_fi_buttons_dark_194
+  - first:
+      213: -3895137355916604323
+    second: sci_fi_buttons_dark_195
+  - first:
+      213: 1208952239475969597
+    second: sci_fi_buttons_dark_196
+  - first:
+      213: 4750617888199980567
+    second: sci_fi_buttons_dark_197
+  - first:
+      213: -3015900333003690914
+    second: sci_fi_buttons_dark_198
+  - first:
+      213: 3878971502021716906
+    second: sci_fi_buttons_dark_199
+  - first:
+      213: 2203539681444289299
+    second: sci_fi_buttons_dark_200
+  - first:
+      213: -1796803957261185739
+    second: sci_fi_buttons_dark_201
+  - first:
+      213: 5931709079377654101
+    second: sci_fi_buttons_dark_202
+  - first:
+      213: 6528586925894273898
+    second: sci_fi_buttons_dark_203
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ec8390b509d4ac0800000000000000
+      internalID: -3869277784170246565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac3c92eba992b280800000000000000
+      internalID: -9028985339404075863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 525
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef80d7fc318cd9b0800000000000000
+      internalID: -5054022582960877598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ae8a2ba1afd950800000000000000
+      internalID: 6476072545707534817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdab7474f55ae970800000000000000
+      internalID: 8784928531554217419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9c2ee2bab85e930800000000000000
+      internalID: 4171894197170915766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 525
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c86db50e941d720800000000000000
+      internalID: 2869155665574005902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ab53bad88805b80800000000000000
+      internalID: -8408070362256524798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 525
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce5176dc2484f470800000000000000
+      internalID: 8427506130828222147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af9fe57191520a0800000000000000
+      internalID: -6907086865334404519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9003e583ca6dcbb00800000000000000
+      internalID: 845786865207226377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 525
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d28f23e13b5e4a0800000000000000
+      internalID: -6564643939537113731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 525
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48359f9b806079f60800000000000000
+      internalID: 8040902294242939780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 525
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b928407bf56d590800000000000000
+      internalID: -7649821677382886605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ac8b7f395a53f90800000000000000
+      internalID: -6974486392978486722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ca5ee3a8a3d3210800000000000000
+      internalID: 1314271031697189937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 522
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6129ce6325df488e0800000000000000
+      internalID: -1691949030433844714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375dd5081665047e0800000000000000
+      internalID: -1783330475673266829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97daf3c23901c7be0800000000000000
+      internalID: -1478288353395757703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 525
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceb5f7b0537e2460800000000000000
+      internalID: 7218834043242397381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28a5b73f779fe700800000000000000
+      internalID: 571842250350635053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 525
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f5152a80318a050800000000000000
+      internalID: 5811916246925533078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 525
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1007d4c69499a9350800000000000000
+      internalID: 6024295992190136321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 525
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f773137b668178470800000000000000
+      internalID: 8396706859694765951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_24
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f779d9a96f701a00800000000000000
+      internalID: 725219631804545015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 525
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dcfccdf7a4b2b50800000000000000
+      internalID: 6569426394475908443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59d56831b087d790800000000000000
+      internalID: -7505388755345876646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b34533b7f3734a50800000000000000
+      internalID: 6504169794553856950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37228e33b1aaec3d0800000000000000
+      internalID: -3184420852692671885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc62b7d4b98280c00800000000000000
+      internalID: 866987575753778891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_30
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c386ec2580f44a560800000000000000
+      internalID: 7324065791178860604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba1da8a406306360800000000000000
+      internalID: 7160782801156774591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 506
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35c82fd9da83d140800000000000000
+      internalID: 4743287500907791676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9126b6b8c0b51b0800000000000000
+      internalID: -5666921913174058559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_34
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06120e53a3f1b9a0800000000000000
+      internalID: -6218921727439530482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2363c30c92c7fc0800000000000000
+      internalID: -3495873305125702946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c81afc0a0b58750800000000000000
+      internalID: 6306641057926974568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 506
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5699c976bdb7170800000000000000
+      internalID: 8177370786476680635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 506
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a630fbd3b70897d80800000000000000
+      internalID: -8252423575374462102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1d3f5a595633650800000000000000
+      internalID: 6211420004482798059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b3fb1b6eca7b490800000000000000
+      internalID: -7730520128533611683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0be27253682ef40800000000000000
+      internalID: 5756310836581675208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_42
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16537fc9577003540800000000000000
+      internalID: 4985492989225153889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 506
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426785fa2b7720170800000000000000
+      internalID: 8143202685568972324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ac9aa0e7d818fc0800000000000000
+      internalID: -3494356263378498976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_45
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08163992062b4f030800000000000000
+      internalID: 3527640534222070144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_46
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c050787a1f864ebc0800000000000000
+      internalID: -3754760802213100276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_47
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d46c789db74b6e0800000000000000
+      internalID: -1822695774962168471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 506
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04984f29c615ddd20800000000000000
+      internalID: 3304887228323629376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_49
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 506
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b2661a9c12eab30800000000000000
+      internalID: 4300411844065372953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6baa4962ef1aeb0800000000000000
+      internalID: -4710204293596399942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_51
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 506
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082503494b91ffa20800000000000000
+      internalID: 3098223332025193088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd008a587d749680800000000000000
+      internalID: -8749230220206142032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efd60ac87270e6b0800000000000000
+      internalID: -5269085700912390176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_54
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f815fea1df7820800000000000000
+      internalID: 2918281632925940060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_55
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a12556503087da0800000000000000
+      internalID: -5946999986233140663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_56
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eef5ce9519730a0800000000000000
+      internalID: -6901888088518168959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_57
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad7dc90f095d6d30800000000000000
+      internalID: 4426291929898909094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_58
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081b3149992e223c0800000000000000
+      internalID: -4385693937863249536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_59
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3980f5bec2a1660800000000000000
+      internalID: 7357242330686460920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_60
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708336b5b9e988ff0800000000000000
+      internalID: -33602607114930169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_61
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 506
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3790160e50823070800000000000000
+      internalID: 8084665422400493375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68080a6676ccb8fe0800000000000000
+      internalID: -1185629332406501242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_63
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5d6d3bfeb891860800000000000000
+      internalID: 7501180515992917478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_64
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 485
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749a5537fcaf3ef90800000000000000
+      internalID: -6925416033065522873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6718660196e0d7b90800000000000000
+      internalID: -7242616781332381322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_66
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d260fb0385ff08d00800000000000000
+      internalID: 973058273752057389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e3134958129d130800000000000000
+      internalID: 3591939035405303443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_68
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 485
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032fad8c4e6e6a20800000000000000
+      internalID: 3057502472104780548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025ae762e0be93540800000000000000
+      internalID: 4988276508297438496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_70
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 485
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293937ef0e9a0a480800000000000000
+      internalID: -8889918880622603374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_71
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4560cd45a9f67f0800000000000000
+      internalID: -617104934667135796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_72
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dbb207c9a75e740800000000000000
+      internalID: 5180681758675025197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_73
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 485
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58b00288fc3ef340800000000000000
+      internalID: 4899420482656319582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_74
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 485
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2661315ec728f1370800000000000000
+      internalID: 8295492511570531938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_75
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 485
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7234f959fb515a910800000000000000
+      internalID: 1847907134698636071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_76
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc279f0a935c4af20800000000000000
+      internalID: 3433085667267670735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_77
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6ac5035c19d6d80800000000000000
+      internalID: -8255782265794287949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_78
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 482
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9aa47918d6789c0800000000000000
+      internalID: -3925048146873636444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_79
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f64ae433d51a4e0800000000000000
+      internalID: -1972192686867452027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_80
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a538daaba5ddb680800000000000000
+      internalID: -8737592768746474071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_81
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 485
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaebe76ffa4fe3a30800000000000000
+      internalID: 4197060939347836590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_82
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957d860fc77f425e0800000000000000
+      internalID: -1935149823881062567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_83
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 485
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e39c8d56fa28000800000000000000
+      internalID: 36784598936010270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_84
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 485
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03222b0f9a79fd0c0800000000000000
+      internalID: -4548750342477438416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_85
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 485
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459ce852c9c2e6840800000000000000
+      internalID: 5219158067325618516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_86
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9b69ea759d2fde0800000000000000
+      internalID: -1300738371742156324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_87
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 485
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16651372ccadf40800000000000000
+      internalID: 5754135942622765510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baa6642734c89040800000000000000
+      internalID: 4654685956000361141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_89
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a72af3ae17e88b0800000000000000
+      internalID: -5148052073133999567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_90
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5972f6e9f805680800000000000000
+      internalID: -8768350563857885770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_91
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244a671322cab4a60800000000000000
+      internalID: 7659404854132384834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_92
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa5396ddc605f120800000000000000
+      internalID: 2446869453683776174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_93
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadc56a836cb43140800000000000000
+      internalID: 4698587446963981738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_94
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475c4b3a60b01d730800000000000000
+      internalID: 4022008065362806132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33893493f7c10eea0800000000000000
+      internalID: -5845640983579748301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_96
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087b34693b8c88010800000000000000
+      internalID: 1191422775085217664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_97
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab6764a4fc6945a0800000000000000
+      internalID: -6536573586165503064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_98
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f611faba3712b900800000000000000
+      internalID: 698646433207752435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_99
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27a40d0d75239610800000000000000
+      internalID: 1626685109430429484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_100
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 466
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690819ea8c1c70cf0800000000000000
+      internalID: -286046983648345962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_101
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f1dab98c800e8f0800000000000000
+      internalID: -513400699821940954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_102
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4900077d2a844e20800000000000000
+      internalID: 3333941552035662154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a2290d3a9b6fbe0800000000000000
+      internalID: -1443762517295617520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_104
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e201093545ea00800000000000000
+      internalID: 785109821178438810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_105
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25678d6a79284cfa0800000000000000
+      internalID: -5781352433785997742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_106
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b7f969bcd1ab970800000000000000
+      internalID: 8771355984500063012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_107
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d04bdbe805040e60800000000000000
+      internalID: 7927466779953807571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_108
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40405897a020577f0800000000000000
+      internalID: -615583530054515708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_109
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0e7bae6cd3c8540800000000000000
+      internalID: 5011448409907257520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_110
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 466
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9778898784c25b0800000000000000
+      internalID: -5391854971077035577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_111
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e5358ddb7690a90800000000000000
+      internalID: -7347227252002431437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_112
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18c989c83af7fd80800000000000000
+      internalID: -8216823873307817957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_113
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdca955ac4b144e20800000000000000
+      internalID: 3333819640166591711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_114
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b2e045880ca5660800000000000000
+      internalID: 7375419031530908469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_115
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe6ddc6ecee3b440800000000000000
+      internalID: 4950562985767431934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e471565c81a79890800000000000000
+      internalID: -7451309434345523993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_117
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbbcfddf8470bb80800000000000000
+      internalID: -8381070745283019782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_118
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db266b73c59527fc0800000000000000
+      internalID: -3498635707906891075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_119
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913e115ef4ff06470800000000000000
+      internalID: 8385983224774517529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_120
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8550fc8ee67d7650800000000000000
+      internalID: 6232268226289489295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_121
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d4d9d5182c0ad20800000000000000
+      internalID: 3287841588857621845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_122
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a3df8c7ae7a4260800000000000000
+      internalID: 7082612623090203181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_123
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 466
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e810fc4985c5015e0800000000000000
+      internalID: -1940949903873212018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_124
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ce08fc35f280b70800000000000000
+      internalID: 8865387903488945278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_125
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 430
+        width: 72
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a345a97ed734b10800000000000000
+      internalID: 1964552296143796881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_126
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 430
+        width: 72
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddeccb05dc4b7a00800000000000000
+      internalID: 755281840424414679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_127
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 396
+        width: 105
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f956c3e7316b7ef50800000000000000
+      internalID: 6910692348061836703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_128
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 396
+        width: 105
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6860b0f2eba7e400800000000000000
+      internalID: 353440086960924782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_129
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 396
+        width: 105
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2b3f0a1e1c1d7d0800000000000000
+      internalID: -2895319910610390354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_130
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 103
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0531e2206df006830800000000000000
+      internalID: 4062264275722179408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_131
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 362
+        width: 103
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95b1bc1118c936d0800000000000000
+      internalID: -3010154900099058273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_132
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 362
+        width: 103
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca1a3ef175286070800000000000000
+      internalID: 8099765101352590027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_133
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 328
+        width: 70
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b69de3bb764b8590800000000000000
+      internalID: -7670960043181893959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_134
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 328
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878facacb652a8510800000000000000
+      internalID: 1552094166476585080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_135
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 328
+        width: 70
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a56066373cd1cc50800000000000000
+      internalID: 6683865451688125859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_136
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 294
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3d69983113c8c60800000000000000
+      internalID: 7821680612818211811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_137
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 294
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454f09f142dad5770800000000000000
+      internalID: 8601221234007536724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_138
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 294
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a024777cc9319170800000000000000
+      internalID: 8183385548249112741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_139
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 260
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a974404aa9484e480800000000000000
+      internalID: -8870819566301460582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_140
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 260
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b078c0a968651bef0800000000000000
+      internalID: -94198981087951093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_141
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 260
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1952bf28a6e710800000000000000
+      internalID: 1722248830324907655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_142
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 226
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4c0bbc4465c6b30800000000000000
+      internalID: 4281892199197623528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_143
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 226
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02fbc6ea4498f970800000000000000
+      internalID: 8788937722234139148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_144
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 226
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05acabc35f5987660800000000000000
+      internalID: 7383816469592328784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_145
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 205
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49170b86b518cc0d0800000000000000
+      internalID: -3401201388973166188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 205
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53aa77b94096a9b0800000000000000
+      internalID: -5069205684273634470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_147
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 205
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0151bddcbd4eeb30800000000000000
+      internalID: 4318474566263460109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 205
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638ea3954897d7090800000000000000
+      internalID: -8035132550819420106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_149
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c0c7f6a40b58270800000000000000
+      internalID: 8252195725970770966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_150
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 207
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba980bcb3216ecf0800000000000000
+      internalID: -223471083489551684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_151
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 207
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc4d4c22763bc0e0800000000000000
+      internalID: -2248643724943995681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_152
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 106
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f29338b98267b50800000000000000
+      internalID: 6590499753089904475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_153
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 195
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32034676b0a1f2450800000000000000
+      internalID: 6066095859372929059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_154
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 185
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b9ec8c7042ee20800000000000000
+      internalID: 3378333574165542763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_155
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 177
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5632cb6d2b4762080800000000000000
+      internalID: -9212547676284116123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_156
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 169
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf8f368314b8a50800000000000000
+      internalID: 6524380195627531177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_157
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c606c980598b89900800000000000000
+      internalID: 691505493035475052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_158
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 155
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49075f2a16569130800000000000000
+      internalID: 3573138024828438863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 155
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672f89093d4494750800000000000000
+      internalID: 6289634030054339190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_160
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 155
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b99bd26f3e98d0b0800000000000000
+      internalID: -5703634932986046032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_161
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 155
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67e8d8efa5e28120800000000000000
+      internalID: 2414744893912573802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_162
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 153
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63e4141d5c372f30800000000000000
+      internalID: 4550672318947713901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_163
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 145
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bb37e092181eb30800000000000000
+      internalID: 4314871931333753677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_164
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd692ed9a82a34e10800000000000000
+      internalID: 2180765360815511260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c23dc113ce4af0800000000000000
+      internalID: -410176034819619411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_166
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 128
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b268c1d932049f30800000000000000
+      internalID: 4581289168298599091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_167
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 128
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762b75f8d48667220800000000000000
+      internalID: 2483286926868066919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_168
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 137
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c33e82899e05c70800000000000000
+      internalID: 8957916498570198100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_169
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfe09f7e2f142ba0800000000000000
+      internalID: -6114728109493129273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_170
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 121
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785009bda48b9dec0800000000000000
+      internalID: -3541597000299444857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_171
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc0bc3e143f612d0800000000000000
+      internalID: -3308189411936891654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_172
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 107
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2672aaa1ad478820800000000000000
+      internalID: 2920388240120903210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_173
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 107
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d74ae4af7be41bd0800000000000000
+      internalID: -2660242546408929319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_174
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 105
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab14b8330569b86c0800000000000000
+      internalID: -4140050161230724678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_175
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f3a3f0d34a1f980800000000000000
+      internalID: -8506837638970720384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_176
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 88
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c466cf8953e03a9b0800000000000000
+      internalID: -5070193132126312884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_177
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 88
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab03e1529f95e0a0800000000000000
+      internalID: -6852895807186465875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_178
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f08495a3033ee4b0800000000000000
+      internalID: -5409330011669495562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_179
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d10654a63e21a1d0800000000000000
+      internalID: -3341338636311985708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_180
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06b3a57e17357c90800000000000000
+      internalID: -7172766227555437041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_181
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 89
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37c6a57f4ef7ae80800000000000000
+      internalID: -8167279781983369414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_182
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 81
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d202c3545fb29d80800000000000000
+      internalID: -8245317598858575145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_183
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e454821edbacf80800000000000000
+      internalID: -8085441406249382309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_184
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 65
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6ef20b0aa7786f0800000000000000
+      internalID: -682441987954055517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_185
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 69
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959ee8cce614dc530800000000000000
+      internalID: 3876826798369991001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_186
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 69
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c2b8e60c7d64f00800000000000000
+      internalID: 1100804380426972184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_187
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 53
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612f0b1975a74ef40800000000000000
+      internalID: 5756860740211372566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_188
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 53
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ea8e9fd00b56bd0800000000000000
+      internalID: -2637508432681718262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_189
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 53
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb98f9935f5d39470800000000000000
+      internalID: 8400292979186567611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_190
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 57
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee60fdec6cf92330800000000000000
+      internalID: 3686755314758086376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_191
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 49
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a873b07144043db0800000000000000
+      internalID: -4813217422642022239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_192
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0759d6a2e6a93ebe0800000000000000
+      internalID: -1449144857134262928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_193
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 50
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6bbb8b9da6f2470800000000000000
+      internalID: 8372027715644798653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_194
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 41
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a22eeb93371d170800000000000000
+      internalID: 8201463088271207020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_195
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c8c3d4631b1f9c0800000000000000
+      internalID: -3895137355916604323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_196
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 31
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ec06018af07c010800000000000000
+      internalID: 1208952239475969597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_197
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716b6c9acc59de140800000000000000
+      internalID: 4750617888199980567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_198
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 20
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c255540ae5526d0800000000000000
+      internalID: -3015900333003690914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_199
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 20
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab2ed78700e4d530800000000000000
+      internalID: 3878971502021716906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_200
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 20
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bd6f85aab849e10800000000000000
+      internalID: 2203539681444289299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_201
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 25
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4e6c12587017e0800000000000000
+      internalID: -1796803957261185739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_202
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b34beaf9a15250800000000000000
+      internalID: 5931709079377654101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sci_fi_buttons_dark_203
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b003b18333a9a50800000000000000
+      internalID: 6528586925894273898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sci_fi_buttons_dark_0: -3869277784170246565
+      sci_fi_buttons_dark_1: -9028985339404075863
+      sci_fi_buttons_dark_10: 845786865207226377
+      sci_fi_buttons_dark_100: -286046983648345962
+      sci_fi_buttons_dark_101: -513400699821940954
+      sci_fi_buttons_dark_102: 3333941552035662154
+      sci_fi_buttons_dark_103: -1443762517295617520
+      sci_fi_buttons_dark_104: 785109821178438810
+      sci_fi_buttons_dark_105: -5781352433785997742
+      sci_fi_buttons_dark_106: 8771355984500063012
+      sci_fi_buttons_dark_107: 7927466779953807571
+      sci_fi_buttons_dark_108: -615583530054515708
+      sci_fi_buttons_dark_109: 5011448409907257520
+      sci_fi_buttons_dark_11: -6564643939537113731
+      sci_fi_buttons_dark_110: -5391854971077035577
+      sci_fi_buttons_dark_111: -7347227252002431437
+      sci_fi_buttons_dark_112: -8216823873307817957
+      sci_fi_buttons_dark_113: 3333819640166591711
+      sci_fi_buttons_dark_114: 7375419031530908469
+      sci_fi_buttons_dark_115: 4950562985767431934
+      sci_fi_buttons_dark_116: -7451309434345523993
+      sci_fi_buttons_dark_117: -8381070745283019782
+      sci_fi_buttons_dark_118: -3498635707906891075
+      sci_fi_buttons_dark_119: 8385983224774517529
+      sci_fi_buttons_dark_12: 8040902294242939780
+      sci_fi_buttons_dark_120: 6232268226289489295
+      sci_fi_buttons_dark_121: 3287841588857621845
+      sci_fi_buttons_dark_122: 7082612623090203181
+      sci_fi_buttons_dark_123: -1940949903873212018
+      sci_fi_buttons_dark_124: 8865387903488945278
+      sci_fi_buttons_dark_125: 1964552296143796881
+      sci_fi_buttons_dark_126: 755281840424414679
+      sci_fi_buttons_dark_127: 6910692348061836703
+      sci_fi_buttons_dark_128: 353440086960924782
+      sci_fi_buttons_dark_129: -2895319910610390354
+      sci_fi_buttons_dark_13: -7649821677382886605
+      sci_fi_buttons_dark_130: 4062264275722179408
+      sci_fi_buttons_dark_131: -3010154900099058273
+      sci_fi_buttons_dark_132: 8099765101352590027
+      sci_fi_buttons_dark_133: -7670960043181893959
+      sci_fi_buttons_dark_134: 1552094166476585080
+      sci_fi_buttons_dark_135: 6683865451688125859
+      sci_fi_buttons_dark_136: 7821680612818211811
+      sci_fi_buttons_dark_137: 8601221234007536724
+      sci_fi_buttons_dark_138: 8183385548249112741
+      sci_fi_buttons_dark_139: -8870819566301460582
+      sci_fi_buttons_dark_14: -6974486392978486722
+      sci_fi_buttons_dark_140: -94198981087951093
+      sci_fi_buttons_dark_141: 1722248830324907655
+      sci_fi_buttons_dark_142: 4281892199197623528
+      sci_fi_buttons_dark_143: 8788937722234139148
+      sci_fi_buttons_dark_144: 7383816469592328784
+      sci_fi_buttons_dark_145: -3401201388973166188
+      sci_fi_buttons_dark_146: -5069205684273634470
+      sci_fi_buttons_dark_147: 4318474566263460109
+      sci_fi_buttons_dark_148: -8035132550819420106
+      sci_fi_buttons_dark_149: 8252195725970770966
+      sci_fi_buttons_dark_15: 1314271031697189937
+      sci_fi_buttons_dark_150: -223471083489551684
+      sci_fi_buttons_dark_151: -2248643724943995681
+      sci_fi_buttons_dark_152: 6590499753089904475
+      sci_fi_buttons_dark_153: 6066095859372929059
+      sci_fi_buttons_dark_154: 3378333574165542763
+      sci_fi_buttons_dark_155: -9212547676284116123
+      sci_fi_buttons_dark_156: 6524380195627531177
+      sci_fi_buttons_dark_157: 691505493035475052
+      sci_fi_buttons_dark_158: 3573138024828438863
+      sci_fi_buttons_dark_159: 6289634030054339190
+      sci_fi_buttons_dark_16: -1691949030433844714
+      sci_fi_buttons_dark_160: -5703634932986046032
+      sci_fi_buttons_dark_161: 2414744893912573802
+      sci_fi_buttons_dark_162: 4550672318947713901
+      sci_fi_buttons_dark_163: 4314871931333753677
+      sci_fi_buttons_dark_164: 2180765360815511260
+      sci_fi_buttons_dark_165: -410176034819619411
+      sci_fi_buttons_dark_166: 4581289168298599091
+      sci_fi_buttons_dark_167: 2483286926868066919
+      sci_fi_buttons_dark_168: 8957916498570198100
+      sci_fi_buttons_dark_169: -6114728109493129273
+      sci_fi_buttons_dark_17: -1783330475673266829
+      sci_fi_buttons_dark_170: -3541597000299444857
+      sci_fi_buttons_dark_171: -3308189411936891654
+      sci_fi_buttons_dark_172: 2920388240120903210
+      sci_fi_buttons_dark_173: -2660242546408929319
+      sci_fi_buttons_dark_174: -4140050161230724678
+      sci_fi_buttons_dark_175: -8506837638970720384
+      sci_fi_buttons_dark_176: -5070193132126312884
+      sci_fi_buttons_dark_177: -6852895807186465875
+      sci_fi_buttons_dark_178: -5409330011669495562
+      sci_fi_buttons_dark_179: -3341338636311985708
+      sci_fi_buttons_dark_18: -1478288353395757703
+      sci_fi_buttons_dark_180: -7172766227555437041
+      sci_fi_buttons_dark_181: -8167279781983369414
+      sci_fi_buttons_dark_182: -8245317598858575145
+      sci_fi_buttons_dark_183: -8085441406249382309
+      sci_fi_buttons_dark_184: -682441987954055517
+      sci_fi_buttons_dark_185: 3876826798369991001
+      sci_fi_buttons_dark_186: 1100804380426972184
+      sci_fi_buttons_dark_187: 5756860740211372566
+      sci_fi_buttons_dark_188: -2637508432681718262
+      sci_fi_buttons_dark_189: 8400292979186567611
+      sci_fi_buttons_dark_19: 7218834043242397381
+      sci_fi_buttons_dark_190: 3686755314758086376
+      sci_fi_buttons_dark_191: -4813217422642022239
+      sci_fi_buttons_dark_192: -1449144857134262928
+      sci_fi_buttons_dark_193: 8372027715644798653
+      sci_fi_buttons_dark_194: 8201463088271207020
+      sci_fi_buttons_dark_195: -3895137355916604323
+      sci_fi_buttons_dark_196: 1208952239475969597
+      sci_fi_buttons_dark_197: 4750617888199980567
+      sci_fi_buttons_dark_198: -3015900333003690914
+      sci_fi_buttons_dark_199: 3878971502021716906
+      sci_fi_buttons_dark_2: -5054022582960877598
+      sci_fi_buttons_dark_20: 571842250350635053
+      sci_fi_buttons_dark_200: 2203539681444289299
+      sci_fi_buttons_dark_201: -1796803957261185739
+      sci_fi_buttons_dark_202: 5931709079377654101
+      sci_fi_buttons_dark_203: 6528586925894273898
+      sci_fi_buttons_dark_21: 5811916246925533078
+      sci_fi_buttons_dark_22: 6024295992190136321
+      sci_fi_buttons_dark_23: 8396706859694765951
+      sci_fi_buttons_dark_24: 725219631804545015
+      sci_fi_buttons_dark_25: 6569426394475908443
+      sci_fi_buttons_dark_26: -7505388755345876646
+      sci_fi_buttons_dark_27: 6504169794553856950
+      sci_fi_buttons_dark_28: -3184420852692671885
+      sci_fi_buttons_dark_29: 866987575753778891
+      sci_fi_buttons_dark_3: 6476072545707534817
+      sci_fi_buttons_dark_30: 7324065791178860604
+      sci_fi_buttons_dark_31: 7160782801156774591
+      sci_fi_buttons_dark_32: 4743287500907791676
+      sci_fi_buttons_dark_33: -5666921913174058559
+      sci_fi_buttons_dark_34: -6218921727439530482
+      sci_fi_buttons_dark_35: -3495873305125702946
+      sci_fi_buttons_dark_36: 6306641057926974568
+      sci_fi_buttons_dark_37: 8177370786476680635
+      sci_fi_buttons_dark_38: -8252423575374462102
+      sci_fi_buttons_dark_39: 6211420004482798059
+      sci_fi_buttons_dark_4: 8784928531554217419
+      sci_fi_buttons_dark_40: -7730520128533611683
+      sci_fi_buttons_dark_41: 5756310836581675208
+      sci_fi_buttons_dark_42: 4985492989225153889
+      sci_fi_buttons_dark_43: 8143202685568972324
+      sci_fi_buttons_dark_44: -3494356263378498976
+      sci_fi_buttons_dark_45: 3527640534222070144
+      sci_fi_buttons_dark_46: -3754760802213100276
+      sci_fi_buttons_dark_47: -1822695774962168471
+      sci_fi_buttons_dark_48: 3304887228323629376
+      sci_fi_buttons_dark_49: 4300411844065372953
+      sci_fi_buttons_dark_5: 4171894197170915766
+      sci_fi_buttons_dark_50: -4710204293596399942
+      sci_fi_buttons_dark_51: 3098223332025193088
+      sci_fi_buttons_dark_52: -8749230220206142032
+      sci_fi_buttons_dark_53: -5269085700912390176
+      sci_fi_buttons_dark_54: 2918281632925940060
+      sci_fi_buttons_dark_55: -5946999986233140663
+      sci_fi_buttons_dark_56: -6901888088518168959
+      sci_fi_buttons_dark_57: 4426291929898909094
+      sci_fi_buttons_dark_58: -4385693937863249536
+      sci_fi_buttons_dark_59: 7357242330686460920
+      sci_fi_buttons_dark_6: 2869155665574005902
+      sci_fi_buttons_dark_60: -33602607114930169
+      sci_fi_buttons_dark_61: 8084665422400493375
+      sci_fi_buttons_dark_62: -1185629332406501242
+      sci_fi_buttons_dark_63: 7501180515992917478
+      sci_fi_buttons_dark_64: -6925416033065522873
+      sci_fi_buttons_dark_65: -7242616781332381322
+      sci_fi_buttons_dark_66: 973058273752057389
+      sci_fi_buttons_dark_67: 3591939035405303443
+      sci_fi_buttons_dark_68: 3057502472104780548
+      sci_fi_buttons_dark_69: 4988276508297438496
+      sci_fi_buttons_dark_7: -8408070362256524798
+      sci_fi_buttons_dark_70: -8889918880622603374
+      sci_fi_buttons_dark_71: -617104934667135796
+      sci_fi_buttons_dark_72: 5180681758675025197
+      sci_fi_buttons_dark_73: 4899420482656319582
+      sci_fi_buttons_dark_74: 8295492511570531938
+      sci_fi_buttons_dark_75: 1847907134698636071
+      sci_fi_buttons_dark_76: 3433085667267670735
+      sci_fi_buttons_dark_77: -8255782265794287949
+      sci_fi_buttons_dark_78: -3925048146873636444
+      sci_fi_buttons_dark_79: -1972192686867452027
+      sci_fi_buttons_dark_8: 8427506130828222147
+      sci_fi_buttons_dark_80: -8737592768746474071
+      sci_fi_buttons_dark_81: 4197060939347836590
+      sci_fi_buttons_dark_82: -1935149823881062567
+      sci_fi_buttons_dark_83: 36784598936010270
+      sci_fi_buttons_dark_84: -4548750342477438416
+      sci_fi_buttons_dark_85: 5219158067325618516
+      sci_fi_buttons_dark_86: -1300738371742156324
+      sci_fi_buttons_dark_87: 5754135942622765510
+      sci_fi_buttons_dark_88: 4654685956000361141
+      sci_fi_buttons_dark_89: -5148052073133999567
+      sci_fi_buttons_dark_9: -6907086865334404519
+      sci_fi_buttons_dark_90: -8768350563857885770
+      sci_fi_buttons_dark_91: 7659404854132384834
+      sci_fi_buttons_dark_92: 2446869453683776174
+      sci_fi_buttons_dark_93: 4698587446963981738
+      sci_fi_buttons_dark_94: 4022008065362806132
+      sci_fi_buttons_dark_95: -5845640983579748301
+      sci_fi_buttons_dark_96: 1191422775085217664
+      sci_fi_buttons_dark_97: -6536573586165503064
+      sci_fi_buttons_dark_98: 698646433207752435
+      sci_fi_buttons_dark_99: 1626685109430429484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
