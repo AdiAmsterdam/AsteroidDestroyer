@@ -104,5 +104,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1b155fb6ed1c94988390624aeed6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  bulletSpeed: 7
-  range: 10
+  bulletSpeed: 5
+  range: 2

@@ -7,8 +7,9 @@ public class ShipMovement : MonoBehaviour
     public float speed = 2f;
 
     public float rotationSpeed = 100f;
-    
+
     public PauseMenu pauseMenu;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,17 +19,17 @@ public class ShipMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            pauseMenu.PauseGame();
+        }
+
         HandleMovement();
     }
 
     private void HandleMovement()
     {
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
-        {
-            pauseMenu.gameObject.SetActive(true);
-            Time.timeScale = 0;
-        }
-        
+
         if (Keyboard.current.wKey.isPressed)
         {
             transform.Translate(Vector3.up * (Time.deltaTime * speed));
@@ -45,3 +46,4 @@ public class ShipMovement : MonoBehaviour
         }
     }
 }
+
