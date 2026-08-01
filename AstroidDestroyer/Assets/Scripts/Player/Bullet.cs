@@ -8,16 +8,20 @@ public class Bullet : MonoBehaviour
     public float range;
     Vector3 originalPosition;
     private float distance;
+    private Rigidbody2D rb;
+
 
     private void Awake()
     {
         originalPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
+        rb.linearVelocity = transform.up * bulletSpeed;
     }
 
     void Update()
     {
         distance = Vector3.Distance(transform.position, originalPosition);
-        BulletMovement();
+        //BulletMovement();
         if (distance > range)
         {
             Destroy(gameObject);
@@ -26,6 +30,16 @@ public class Bullet : MonoBehaviour
 
     private void BulletMovement()
     {
-        transform.Translate(Vector3.up * (Time.deltaTime * bulletSpeed));
+        rb.linearVelocity = transform.up * bulletSpeed;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        if (collider2D.CompareTag("Astroid"))
+        {
+            Debug.Log("Bullet Hit");
+            Destroy(collider2D.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

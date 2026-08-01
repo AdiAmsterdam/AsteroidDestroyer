@@ -33,13 +33,19 @@ public class Weapons : MonoBehaviour
 
     void ShootEnergyWhip()
     {
-        Instantiate(bulletPrefab, transform.position, transform.rotation);
+        SpawnBullet();
     }
 
     void ShootGun()
     {
         if (!(Time.time >= nextFireTime)) return;
         nextFireTime = Time.time + fireRate;
-        Instantiate(bulletPrefab, transform.position, transform.rotation);
+        SpawnBullet();
+    }
+    
+    void SpawnBullet()
+    {
+        Bullet b = Instantiate(bulletPrefab, transform.position, transform.rotation);
+        b.gameObject.SetActive(true);
     }
 }
