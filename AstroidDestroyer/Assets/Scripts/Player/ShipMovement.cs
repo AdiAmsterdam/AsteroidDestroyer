@@ -1,3 +1,4 @@
+using Player;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -5,12 +6,6 @@ using UnityEngine.InputSystem;
 public class ShipMovement : MonoBehaviour
 {
 
-    public float speed = 2f;
-
-    public float rotationSpeed = 100f;
-
-    public PauseMenu pauseMenu;
-    
     public float maxPullForce = 10f;
 
     public float magnetRadius;
@@ -20,8 +15,31 @@ public class ShipMovement : MonoBehaviour
 
     private Health health;
 
+    private EnergySystem energySystem;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] AudioClip EngineSound;
+
+    public float acceleration = 2f;
+    public float maxSpeed = 5f;
+    public float dashSpeed = 7f;
+    public float dashEnergyDrain = 30f;
+    private bool thrust;
+    private bool dash;
+    private float rotation;
+    private bool isMoving;
+
+    public Rigidbody2D rb { get; private set; }
+
+    public float rotationSpeed = 100f;
+
+    public PauseMenu pauseMenu;
+
+    private void Awake()
+    {
+        energySystem = GetComponent<EnergySystem>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     void Start()
     {
         Time.timeScale = 0;
@@ -29,7 +47,7 @@ public class ShipMovement : MonoBehaviour
         magnetRadius = MagnetCollider.bounds.extents.magnitude;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
@@ -37,28 +55,68 @@ public class ShipMovement : MonoBehaviour
             pauseMenu.PauseGame();
         }
 
-        HandleMovement();
+        ReadInput();
+        HandleThrust();
     }
 
-    private void HandleMovement()
+    void FixedUpdate()
     {
+        MoveShip();
+    }
 
-        if (Keyboard.current.wKey.isPressed)
-        {
-            transform.Translate(Vector3.up * (Time.deltaTime * speed));
-        }
+    private void ReadInput()
+    {
+        thrust = Keyboard.current.wKey.isPressed;
+        dash = Keyboard.current.shiftKey.isPressed;
 
-        if (Keyboard.current.dKey.isPressed)
-        {
-            transform.Rotate(Vector3.back, Time.deltaTime * rotationSpeed);
-        }
+        rotation = 0f;
 
         if (Keyboard.current.aKey.isPressed)
+            rotation = 1f;
+        else if (Keyboard.current.dKey.isPressed)
+            rotation = -1f;
+    }
+
+    private void MoveShip()
+    {
+        if (thrust)
         {
-            transform.Rotate(Vector3.forward * (Time.deltaTime * rotationSpeed));
+            rb.linearVelocity += (Vector2)transform.up * (acceleration * Time.fixedDeltaTime);
+            rb.linearVelocity = Vector2.ClampMagnitude(rb.linearVelocity, maxSpeed);
+        }
+
+        if (rotation < 0)
+        {
+            rb.angularVelocity = -rotationSpeed;
+        }
+        else if (rotation > 0)
+        {
+            rb.angularVelocity = rotationSpeed;
+        }
+        else
+        {
+            rb.angularVelocity = 0f;
+        }
+
+        if (dash)
+        {
+            if (energySystem.TrySpendEnergy(dashEnergyDrain * Time.fixedDeltaTime))
+            {
+                rb.linearVelocity = (Vector2)transform.up * dashSpeed;
+            }
         }
     }
 
+    private void HandleThrust()
+    {
+        isMoving = thrust || dash;
+        if (isMoving)
+        {
+            AudioManager.audioManager.PlayEngineSound(EngineSound);
+        }
+        else AudioManager.audioManager.StopEngineSound();
+    }
+    
     void OnTriggerStay2D(Collider2D collider2D)
     {
         if (collider2D.CompareTag("Astroid"))
