@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
     {
         if (collider2D.CompareTag("Astroid"))
         {
-            Debug.Log("Bullet Hit");
+            
             Destroy(collider2D.gameObject);
             Destroy(gameObject);
         }

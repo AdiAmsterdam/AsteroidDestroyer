@@ -45,7 +45,8 @@ public class Weapons : MonoBehaviour
     
     void SpawnBullet()
     {
-        Bullet b = Instantiate(bulletPrefab, transform.position, transform.rotation);
-        b.gameObject.SetActive(true);
+       // Bullet b = 
+        Instantiate(bulletPrefab, transform.position, transform.rotation);
+        //b.gameObject.SetActive(true);
     }
 }
