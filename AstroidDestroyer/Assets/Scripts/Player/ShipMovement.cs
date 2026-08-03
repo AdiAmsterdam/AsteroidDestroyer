@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class ShipMovement : MonoBehaviour
 {
+    [SerializeField] private Camera mainCamera;
 
     public float maxPullForce = 10f;
 

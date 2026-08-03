@@ -19,8 +19,6 @@ namespace Player
 
         void Update()
         {
-            if (isOverheating) Debug.Log($"Is Overheating: {isOverheating}");
-            Debug.Log(GetEnergyPercentage());
             if (currentEnergy >= maxEnergy) currentEnergy = maxEnergy;
             UpdateEnergy();
         }

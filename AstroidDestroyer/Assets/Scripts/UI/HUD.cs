@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Player;
 using TMPro;
 using UI;
 using UnityEngine;
@@ -9,8 +10,14 @@ public class HUD : MonoBehaviour
 {
     [SerializeField] private Image healthImage;
     private int imageSize = 100;
-    [SerializeField] private TextMeshProUGUI scoreText;
     private List<BatteryUI> batteryUI;
+    
+    [SerializeField] private TextMeshProUGUI scoreText;
+    
+    [SerializeField] private EnergySystem energySystem;
+    [SerializeField] private Image energyBarImage;
+    [SerializeField] private Image energyAmount;
+    
 
     private void Awake()
     {
@@ -19,6 +26,7 @@ public class HUD : MonoBehaviour
 
     void Update()
     {
+        UpdateEnergy(energySystem.GetEnergyPercentage());
     }
 
     public void UpdateScore(int score)
@@ -29,5 +37,10 @@ public class HUD : MonoBehaviour
     public void UpdateHealth(int amount)
     {
         healthImage.rectTransform.sizeDelta = new Vector2(imageSize * amount, imageSize);
+    }
+
+    private void UpdateEnergy(float precent)
+    {
+        energyAmount.fillAmount = precent;
     }
 }
