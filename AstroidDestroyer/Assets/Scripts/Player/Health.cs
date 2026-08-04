@@ -15,17 +15,11 @@ public class Health : MonoBehaviour
         hud.UpdateHealth(startingHealth);
         currentHealth = startingHealth;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     public void TakeDamage()//Player takes damage
     {
         currentHealth--;
         hud.UpdateHealth(currentHealth);
-        if (currentHealth <= 0)Die();
     }
 
     public void AddHealth()//Adding health
@@ -34,9 +28,9 @@ public class Health : MonoBehaviour
         hud.UpdateHealth(currentHealth);
     }
 
-    void Die()//Player dies
+    public bool IsDead()//Player dies
     {
-        Destroy(gameObject);
+        return currentHealth <= 0;
     }
 
 }

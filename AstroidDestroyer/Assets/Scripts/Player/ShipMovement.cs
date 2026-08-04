@@ -1,3 +1,4 @@
+using System.Collections;
 using Player;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,6 +7,12 @@ using UnityEngine.InputSystem;
 public class ShipMovement : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
+    
+    [SerializeField] private ParticleSystem explosionPrefab;
+    [SerializeField] private Transform[] explosionPoints = new Transform[5];
+    
+    [SerializeField] ParticleSystem engineParticles;
+    [SerializeField] ParticleSystem dashParticles;
 
     public float maxPullForce = 10f;
 
@@ -51,6 +58,7 @@ public class ShipMovement : MonoBehaviour
 
     void Update()
     {
+        if(health.IsDead()) return;
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             pauseMenu.PauseGame();
@@ -58,10 +66,13 @@ public class ShipMovement : MonoBehaviour
 
         ReadInput();
         HandleThrust();
+        EngineParticlesControl();
+
     }
 
     void FixedUpdate()
     {
+        if(health.IsDead()) return;
         MoveShip();
     }
 
@@ -117,28 +128,23 @@ public class ShipMovement : MonoBehaviour
         }
         else AudioManager.audioManager.StopEngineSound();
     }
-    
+
     void OnTriggerStay2D(Collider2D collider2D)
     {
         if (collider2D.CompareTag("Astroid"))
         {
             Debug.Log("Astroid Enter");
             Rigidbody2D rb = collider2D.GetComponent<Rigidbody2D>();
-            
             if (rb != null)
             {
                 if (MagnetCollider.IsTouching(collider2D))
                 {
                     Vector3 direction = transform.position - collider2D.transform.position;
                     float distance = direction.magnitude;
-
                     if (distance < 0.1f) return;
-
                     float closeness = 1f - (distance / magnetRadius);
                     closeness = Mathf.Clamp01(closeness);
-
                     float forceMultiplier = closeness;
-
                     float finalForce = maxPullForce * forceMultiplier;
                     rb.linearVelocity = direction.normalized * finalForce;
                 }
@@ -146,10 +152,59 @@ public class ShipMovement : MonoBehaviour
                 if (BodyCollider.IsTouching(collider2D))
                 {
                     health.TakeDamage();
-                    Destroy(collider2D.gameObject);
+                    Astroid astroid = collider2D.GetComponent<Astroid>();
+                    if (astroid != null) astroid.Explode();
+                    if(health.IsDead()) ExplodeShip();
                 }
             }
         }
+    }
+
+    private void EngineParticlesControl()
+    {
+        if (thrust)
+        {
+            if (!engineParticles.isPlaying)
+                engineParticles.Play();
+        }
+        else
+        {
+            if (engineParticles.isPlaying)
+                engineParticles.Stop();
+        }
+        
+        if (dash)
+        {
+            if (!dashParticles.isPlaying)
+                dashParticles.Play();
+        }
+        else
+        {
+            if (dashParticles.isPlaying)
+                dashParticles.Stop();
+        }
+    }
+    
+    private void ExplodeShip()
+    {
+        StartCoroutine(ExplosionSequence());
+    }
+    
+    IEnumerator ExplosionSequence()
+    {
+        MagnetCollider.enabled = false;
+        BodyCollider.enabled = false;
+        foreach (Transform point in explosionPoints)
+        {
+            Instantiate(
+                explosionPrefab,
+                point.position,
+                Quaternion.identity
+            );
+
+            yield return new WaitForSeconds(0.3f);
+        }
+        Destroy(gameObject);
     }
 }
 

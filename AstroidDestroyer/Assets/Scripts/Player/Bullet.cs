@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] float bulletSpeed = 5f;
+    [SerializeField] float bulletRotation = 600f;
     public float range = 100f;
     Vector2 originalPosition;
     private float distance;
@@ -22,13 +23,13 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     { 
-        rb.linearVelocity = (Vector2)transform.up * bulletSpeed + shipVelocity;
+        BulletMovement();
     }
 
     void Update()
     {
         distance = Vector2.Distance(transform.position, originalPosition);
-        BulletMovement();
+        RotateBullet();
         if (distance > range)
         {
             Destroy(gameObject);
@@ -40,12 +41,18 @@ public class Bullet : MonoBehaviour
         rb.linearVelocity = (Vector2)transform.up * bulletSpeed + shipVelocity;
     }
 
+    public void RotateBullet()
+    {
+        transform.Rotate(0f, 0f, bulletRotation * Time.deltaTime);
+    }
+
     void OnTriggerEnter2D(Collider2D collider2D)
     {
         if (collider2D.CompareTag("Astroid"))
         {
             Debug.Log("Bullet Hit");
-            Destroy(collider2D.gameObject);
+            Astroid astroid = collider2D.GetComponent<Astroid>();
+            if (astroid != null) astroid.Explode();
             Destroy(gameObject);
         }
     }
