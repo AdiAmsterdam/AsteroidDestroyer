@@ -5,7 +5,7 @@ namespace UI
 {
     public class BatteryUI
     {
-        [SerializeField] private Image image;
+        public Image activeImage;
         [SerializeField] private Sprite[] BatterySprites;
 
         public int charge { get; private set; } = 4;

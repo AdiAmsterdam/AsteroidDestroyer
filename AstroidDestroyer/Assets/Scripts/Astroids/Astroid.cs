@@ -16,7 +16,7 @@ public class Astroid : MonoBehaviour
         rb.linearVelocity = new Vector3( -Mathf.Cos(angle) * speed,-Mathf.Sin(angle) * speed,0);
     }
 
-    public void Explode()
+    public void Explode()//Destroys the asteroid and create an explosion
     {
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);

@@ -133,7 +133,7 @@ public class ShipMovement : MonoBehaviour
     {
         if (collider2D.CompareTag("Astroid"))
         {
-            Debug.Log("Astroid Enter");
+            //Debug.Log("Astroid Enter");
             Rigidbody2D rb = collider2D.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
@@ -160,7 +160,7 @@ public class ShipMovement : MonoBehaviour
         }
     }
 
-    private void EngineParticlesControl()
+    private void EngineParticlesControl()//Emits the Particles of the engine
     {
         if (thrust)
         {
@@ -185,12 +185,12 @@ public class ShipMovement : MonoBehaviour
         }
     }
     
-    private void ExplodeShip()
+    private void ExplodeShip()//Initiates the explosion sequence
     {
         StartCoroutine(ExplosionSequence());
     }
     
-    IEnumerator ExplosionSequence()
+    IEnumerator ExplosionSequence()//Destroys the ship and create an explosion
     {
         MagnetCollider.enabled = false;
         BodyCollider.enabled = false;

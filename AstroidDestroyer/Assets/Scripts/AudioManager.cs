@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -5,8 +6,11 @@ public class AudioManager : MonoBehaviour
     //maybe adding an audio chanel enum to make it easier to produce sounds
     public static AudioManager audioManager;
     
-    [SerializeField] private AudioSource SFXSource;
-    [SerializeField] private AudioSource EngineSource;
+    [SerializeField] private AudioSource gunSource;
+    [SerializeField] private AudioSource engineSource;
+    
+    [SerializeField] private AudioSource laserSwordSource;
+    [SerializeField] private AudioSource laserSwordLoopSource;
     
     void Awake()
     {
@@ -20,32 +24,71 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
-    public void PlaySFX(AudioClip clip)
+
+    public void PlaySFX(AudioChannel channel, AudioClip clip)
     {
-        if(!SFXSource || !clip) return; 
-        SFXSource.pitch = Random.Range(0.95f, 1.2f);
-        SFXSource.PlayOneShot(clip);
+        switch (channel)
+        {
+            case AudioChannel.Gun:
+                PlayGunSound(clip);
+                break;
+            case AudioChannel.LaserSword:
+                PlayLaserSwordSound(clip);
+                break;
+        }
+    }
+
+    private void PlayLoop(AudioSource source, AudioClip clip, float volume)
+    {
+        if (!source || !clip)
+            return;
+        
+        if (source.clip != clip)
+            source.clip = clip;
+
+        source.loop = true;
+        source.volume = volume;
+
+        if (!source.isPlaying)
+            source.Play();
+    }
+
+    private void StopLoop(AudioSource source)
+    {
+        if (source && source.isPlaying)
+            source.Stop();
+    }
+    
+    private void PlayGunSound(AudioClip clip)
+    {
+        if(!gunSource || !clip) return; 
+        gunSource.pitch = Random.Range(0.95f, 1.2f);
+        gunSource.PlayOneShot(clip);
     }
 
     public void PlayEngineSound(AudioClip clip)
     {
-        if (!EngineSource || !clip)
-            return;
-        
-        if (EngineSource.clip != clip)
-            EngineSource.clip = clip;
-
-        EngineSource.loop = true;
-        EngineSource.volume = 0.5f;
-
-        if (!EngineSource.isPlaying)
-            EngineSource.Play();
+        PlayLoop(engineSource, clip, 0.5f);
     }
 
     public void StopEngineSound()
     {
-        if (EngineSource.isPlaying)
-            EngineSource.Stop();
+        StopLoop(engineSource);
+    }
+
+    private void PlayLaserSwordSound(AudioClip clip)
+    {
+        if(!laserSwordSource || !clip) return; 
+        laserSwordSource.PlayOneShot(clip);
+    }
+    
+    public void PlayLaserSwordLoop(AudioClip clip)
+    {
+        PlayLoop(laserSwordLoopSource, clip, 0.3f);
+    }
+
+    public void StopLaserSwordLoop()
+    {
+        StopLoop(laserSwordLoopSource);
     }
 }
