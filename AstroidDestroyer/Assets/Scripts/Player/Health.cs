@@ -1,36 +1,70 @@
 using System;
+using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Health : MonoBehaviour
 {
 
-    [SerializeField] private int startingHealth = 3;
-    private int currentHealth;
-    
+    private int batteryAmount = 3;
+    private int chargePerBattery = 4;
+    private List<int> batteries;
     [SerializeField] HUD hud;
 
     private void Awake()
     {
-        hud.UpdateHealth(startingHealth);
-        currentHealth = startingHealth;
-    }
-    
-    public void TakeDamage()//Player takes damage
-    {
-        currentHealth--;
-        hud.UpdateHealth(currentHealth);
+        batteries = new List<int>(batteryAmount);
+        for (int i = 0; i < batteryAmount; i++)
+        {
+            batteries.Add(chargePerBattery);
+        }
+        
+        hud.UpdateHealth(batteries);
     }
 
-    public void AddHealth()//Adding health
+    private void Update()
     {
-        currentHealth++;
-        hud.UpdateHealth(currentHealth);
+        if (Keyboard.current.vKey.wasPressedThisFrame)
+        {
+            AddHealth();
+        }
+    }
+
+    public void TakeDamage()//Player takes damage
+    {
+        for (int i = batteries.Count - 1; i >= 0; i--)
+        {
+            if (batteries[i] > 0)
+            {
+                batteries[i]--;
+                break;
+            }
+        }
+        hud.UpdateHealth(batteries);
+    }
+
+    public void AddHealth() //Adding health
+    {
+        for (int i = 0; i < batteries.Count; i++)
+        {
+            if (batteries[i] == 0) return;
+            if (batteries[i] < chargePerBattery)
+            {
+                batteries[i]++;
+                break;
+            }
+        }
+        hud.UpdateHealth(batteries);
     }
 
     public bool IsDead()//Player dies
     {
-        return currentHealth <= 0;
+        foreach (var battery in batteries)
+        {
+            if (battery > 0) return false;
+        }
+        return true;
     }
 
 }

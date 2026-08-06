@@ -8,9 +8,7 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField] private Image healthImage;
-    private int imageSize = 100;
-    private List<BatteryUI> batteryUI;
+    [SerializeField] private BatteryUI batteryUI;
     
     [SerializeField] private TextMeshProUGUI scoreText;
     
@@ -18,12 +16,6 @@ public class HUD : MonoBehaviour
     [SerializeField] private Image energyBarImage;
     [SerializeField] private Image energyAmount;
     
-
-    private void Awake()
-    {
-        batteryUI = new List<BatteryUI>(3);
-    }
-
     void Update()
     {
         UpdateEnergy(energySystem.GetEnergyPercentage());
@@ -34,9 +26,9 @@ public class HUD : MonoBehaviour
         scoreText.text = "SCORE: " + score;
     }
 
-    public void UpdateHealth(int amount)
+    public void UpdateHealth(List<int> batteries)
     {
-        healthImage.rectTransform.sizeDelta = new Vector2(imageSize * amount, imageSize);
+        batteryUI.UpdateBatteryUI(batteries);
     }
 
     private void UpdateEnergy(float precent)

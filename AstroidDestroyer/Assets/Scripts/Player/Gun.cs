@@ -11,7 +11,7 @@ namespace Player
         [SerializeField] private Bullet bulletPrefab;
         [SerializeField] AudioClip gunSound;
         
-        [SerializeField] private float fireRate = 1f;
+        [SerializeField] private float fireRate = 0.5f;
         private float gunTimer;
         
         private float gunRange = 10f;

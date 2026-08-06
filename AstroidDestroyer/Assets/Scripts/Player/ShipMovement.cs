@@ -65,7 +65,7 @@ public class ShipMovement : MonoBehaviour
         }
 
         ReadInput();
-        HandleThrust();
+        HandleThrustSound();
         EngineParticlesControl();
 
     }
@@ -119,7 +119,7 @@ public class ShipMovement : MonoBehaviour
         }
     }
 
-    private void HandleThrust()
+    private void HandleThrustSound()
     {
         isMoving = thrust || dash;
         if (isMoving)

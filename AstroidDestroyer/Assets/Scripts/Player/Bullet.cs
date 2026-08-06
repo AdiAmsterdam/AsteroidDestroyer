@@ -41,7 +41,7 @@ public class Bullet : MonoBehaviour
         rb.linearVelocity = (Vector2)transform.up * bulletSpeed + shipVelocity;
     }
 
-    public void RotateBullet()
+    private void RotateBullet()
     {
         transform.Rotate(0f, 0f, bulletRotation * Time.deltaTime);
     }

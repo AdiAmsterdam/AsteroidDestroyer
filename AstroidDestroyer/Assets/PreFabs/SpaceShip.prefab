@@ -47,10 +47,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player.LaserSword
   laserSword: {fileID: 1120878351621638352}
   EnergyDrain: 15
-  FireRate: 0.01
   startSound: {fileID: 0}
-  activeSound: {fileID: 0}
-  endSound: {fileID: 0}
+  swordHumLoop: {fileID: 0}
+  closeSound: {fileID: 0}
+  laserRange: 200
+  SwordCollider: {fileID: 0}
 --- !u!1 &1132122015340276331
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +79,7 @@ Transform:
   m_GameObject: {fileID: 1132122015340276331}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0, y: -0.411, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4913,7 +4914,7 @@ Transform:
   m_GameObject: {fileID: 1617643814451876039}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14, y: 0.06, z: 0}
+  m_LocalPosition: {x: 0.335, y: 0.05, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4933,7 +4934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player.Gun
   bulletPrefab: {fileID: 6664333168313525199, guid: ae5a00830d997a54ea5a4fbea0ca8eaf, type: 3}
   gunSound: {fileID: 8300000, guid: e00e8b2bef38087429c640342e31b3e1, type: 3}
-  fireRate: 1
+  fireRate: 0.5
 --- !u!1 &2003926676938178526
 GameObject:
   m_ObjectHideFlags: 0
@@ -5021,7 +5022,7 @@ Transform:
   m_GameObject: {fileID: 2345293652996072157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.256, z: 0}
+  m_LocalPosition: {x: 0.298, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5054,7 +5055,7 @@ Transform:
   m_GameObject: {fileID: 2982852995656806189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0, y: -0.4243, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5699,7 +5700,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 90, y: 0, z: 0}
-    m_Scale: {x: 0.07, y: 1, z: 0.1}
+    m_Scale: {x: 0.15, y: 1, z: 0.1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -5897,7 +5898,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 40
+      scalar: 50
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -9889,7 +9890,7 @@ Transform:
   m_GameObject: {fileID: 3528368861725245756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.06, z: 0}
+  m_LocalPosition: {x: -0.335, y: 0.05, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9909,7 +9910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player.Gun
   bulletPrefab: {fileID: 6664333168313525199, guid: ae5a00830d997a54ea5a4fbea0ca8eaf, type: 3}
   gunSound: {fileID: 8300000, guid: e00e8b2bef38087429c640342e31b3e1, type: 3}
-  fireRate: 1
+  fireRate: 0.5
 --- !u!1 &5836310817883772764
 GameObject:
   m_ObjectHideFlags: 0
@@ -9966,7 +9967,7 @@ Transform:
   m_GameObject: {fileID: 6101337331834210909}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.198, y: -0.158, z: 0}
+  m_LocalPosition: {x: -0.248, y: -0.158, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10102,7 +10103,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 2829232388215122354, guid: 625cd4939b7e6324f865e1e05bb185c2, type: 3}
+  m_Sprite: {fileID: 3708422888768994255, guid: f0f41009c4e97114b970de12fc062eea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10157,7 +10158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9257fadff82c48448a70771b513bbc39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.Health
-  startingHealth: 3
   hud: {fileID: 0}
 --- !u!114 &2387012387027100171
 MonoBehaviour:
@@ -10287,7 +10287,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49683592, y: 0.602}
+    oldSize: {x: 0.82, y: 0.91}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10295,9 +10295,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.0007093139, y: 0.29700166}
-      - {x: -0.23683436, y: -0.29057655}
-      - {x: 0.2400325, y: -0.28896978}
+    - - {x: 0.14644198, y: 0.002377376}
+      - {x: 0.042864177, y: 0.34057513}
+      - {x: -0.04871214, y: 0.34097868}
+      - {x: -0.13969816, y: -0.0042854548}
+      - {x: -0.39159536, y: -0.34767285}
+      - {x: -0.17283413, y: -0.2844629}
+      - {x: -0.13700567, y: -0.4397225}
+      - {x: -0.03635542, y: -0.41497406}
+      - {x: 0.034804404, y: -0.41403148}
+      - {x: 0.13244452, y: -0.44181854}
+      - {x: 0.17551368, y: -0.2913248}
+      - {x: 0.39178845, y: -0.34456357}
   m_UseDelaunayMesh: 1
 --- !u!1001 &1120878351615677398
 PrefabInstance:
@@ -10317,7 +10326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436056, guid: 11530f2b0a0cd2442949827ecbb622f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 436056, guid: 11530f2b0a0cd2442949827ecbb622f2, type: 3}
       propertyPath: m_LocalPosition.z

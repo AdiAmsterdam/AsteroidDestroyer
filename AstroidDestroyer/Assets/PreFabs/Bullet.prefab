@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   bulletSpeed: 5
-  bulletRotation: 180
+  bulletRotation: 600
   range: 5
   shipVelocity: {x: 0, y: 0}
 --- !u!58 &7177957776428844396
