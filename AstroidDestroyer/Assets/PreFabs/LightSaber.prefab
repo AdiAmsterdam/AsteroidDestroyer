@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4010090768725566637}
   - component: {fileID: 6314624596266788584}
+  - component: {fileID: 1749923189777127269}
   m_Layer: 0
   m_Name: SwordCollider
   m_TagString: Untagged
@@ -189,3 +190,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.45, y: 103}
   m_EdgeRadius: 0
+--- !u!114 &1749923189777127269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076887303533653241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61b6a5e0446ed9459181143aa49ff37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LaserSwordCollider
+  poofSound: {fileID: 8300000, guid: 23d80b5297162e9459fea98d1bec36f4, type: 3}

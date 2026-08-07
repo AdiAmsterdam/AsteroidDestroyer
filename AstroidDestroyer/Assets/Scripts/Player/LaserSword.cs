@@ -11,22 +11,24 @@ namespace Player
     {
         [SerializeField] private VolumetricLineBehavior laserSword;
         
-        private ShipMovement shipMovement;
+        private Health fullBatteries;
+        
         private EnergySystem energySystem;
+        private float swordOpenEnergySpent = 15f;
+        private float swordActiveEnergySpent = 7f;
         
         private Coroutine swordRoutine;
 
         private SwordState swordState;
-
-        [SerializeField] private float EnergyDrain = 15f;
 
         [SerializeField] private AudioClip startSound;
         [SerializeField] private AudioClip swordHumLoop;
         [SerializeField] private AudioClip closeSound;
         //recharge = plays when recharging???
         
-        [SerializeField] private float laserRange = 200f;
-        private float extendSpeed; //will be at the same rate as the start sound/ end sound
+        private float laserRange = 150f;
+        private float maxRange;
+        private float extendSpeed;
         private float currentLength;
         
         [SerializeField] private BoxCollider2D SwordCollider;
@@ -34,14 +36,21 @@ namespace Player
 
         private void Awake()
         {
+            fullBatteries = GetComponentInParent<Health>();
             swordState = SwordState.Closed;
             SwordCollider.enabled = false;
             energySystem = GetComponentInParent<EnergySystem>();
-            shipMovement = GetComponentInParent<ShipMovement>();
         }
 
         void Update()
         {
+            if (swordState == SwordState.Open || swordState == SwordState.Opening)
+            {
+                if (!energySystem.TrySpendEnergy(swordActiveEnergySpent * Time.deltaTime))
+                {
+                    if(swordRoutine == null) swordRoutine = StartCoroutine(CloseLaserSword());
+                }
+            }
             if (Keyboard.current.ctrlKey.wasPressedThisFrame)
             {
                 if (swordRoutine != null)
@@ -53,7 +62,8 @@ namespace Player
                 switch (swordState)
                 {
                     case SwordState.Closed:
-                        swordRoutine = StartCoroutine(OpenLaserSword());
+                        if(energySystem.TrySpendEnergy(swordOpenEnergySpent))
+                            swordRoutine = StartCoroutine(OpenLaserSword());
                         break;
                     case SwordState.Opening:
                         swordRoutine = StartCoroutine(CloseLaserSword());
@@ -71,12 +81,13 @@ namespace Player
         private IEnumerator OpenLaserSword()
         {
             swordState = SwordState.Opening;
+            maxRange = laserRange * fullBatteries.GetActiveBatteryAmount();
             AudioManager.audioManager.PlaySFX(AudioChannel.LaserSword, startSound);
-            extendSpeed = laserRange / startSound.length;
+            extendSpeed = maxRange / startSound.length;
             laserSword.enabled = true;
-            while (currentLength < laserRange)
+            while (currentLength < maxRange)
             {
-                currentLength = Mathf.MoveTowards(currentLength, laserRange, extendSpeed * Time.deltaTime);
+                currentLength = Mathf.MoveTowards(currentLength, maxRange, extendSpeed * Time.deltaTime);
                 laserSword.StartPos = Vector3.up * currentLength;
                 UpdateSwordCollider();
                 yield return null;
@@ -92,7 +103,7 @@ namespace Player
             AudioManager.audioManager.StopLaserSwordLoop();
             AudioManager.audioManager.PlaySFX(AudioChannel.LaserSword, closeSound);
             SwordCollider.enabled = false;
-            extendSpeed = laserRange / closeSound.length;
+            extendSpeed = maxRange / closeSound.length;
             while (currentLength > 0f)
             {
                 currentLength = Mathf.MoveTowards(currentLength, 0f, extendSpeed * Time.deltaTime);

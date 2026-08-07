@@ -1,12 +1,17 @@
 using System;
+using DefaultNamespace;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Astroid : MonoBehaviour
 {
+    
     [SerializeField] private Transform playerPos;
     [SerializeField] private ParticleSystem explosionPrefab;
+    
+    [SerializeField] private AudioClip evaporateSound;
+    [SerializeField] private AudioClip explosionSound;
     
     private float angle;
     public float speed = 1f;
@@ -31,7 +36,15 @@ public class Astroid : MonoBehaviour
 
     public void Explode()//Destroys the asteroid and create an explosion
     {
+        AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, explosionSound);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+
+    public void Evaporate()
+    {
+        AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, evaporateSound);
+        //add particles
         Destroy(gameObject);
     }
     

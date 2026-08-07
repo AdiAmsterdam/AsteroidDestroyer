@@ -41,7 +41,7 @@ namespace Player
             return true;
         }
 
-        public void UpdateEnergy()
+        private void UpdateEnergy()
         {
             if (isOverheating)
             {

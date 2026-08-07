@@ -7,6 +7,7 @@ namespace Player
 {
     public class Gun : MonoBehaviour
     {
+        private Health fullBatteries;
         private ShipMovement shipMovement;
         [SerializeField] private Bullet bulletPrefab;
         [SerializeField] AudioClip gunSound;
@@ -14,10 +15,11 @@ namespace Player
         [SerializeField] private float fireRate = 0.5f;
         private float gunTimer;
         
-        private float gunRange = 10f;
+        private float gunRange = 7f;
 
         void Awake()
         {
+            fullBatteries = GetComponentInParent<Health>();
             shipMovement = GetComponentInParent<ShipMovement>();
         }
 
@@ -34,7 +36,7 @@ namespace Player
             if (!(Time.time >= gunTimer)) return;
             gunTimer = Time.time + fireRate;
             Bullet bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
-            bullet.range = gunRange;
+            bullet.range = gunRange * fullBatteries.GetActiveBatteryAmount();
             bullet.shipVelocity = shipMovement.rb.linearVelocity;
             AudioManager.audioManager.PlaySFX(AudioChannel.Gun, gunSound);
         }

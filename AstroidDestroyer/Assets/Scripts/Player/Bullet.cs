@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    private Score playerScore;
     [SerializeField] float bulletSpeed = 5f;
     [SerializeField] float bulletRotation = 600f;
-    public float range = 100f;
+    public float range;
     Vector2 originalPosition;
     private float distance;
     private Rigidbody2D rb;
@@ -16,6 +17,7 @@ public class Bullet : MonoBehaviour
 
     void Awake()
     {
+        playerScore = FindFirstObjectByType<Score>();
         originalPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
         shipVelocity = Vector2.zero;
@@ -50,6 +52,7 @@ public class Bullet : MonoBehaviour
     {
         if (collider2D.CompareTag("Astroid"))
         {
+            playerScore.AddScore(10);
             Debug.Log("Bullet Hit");
             Astroid astroid = collider2D.GetComponent<Astroid>();
             if (astroid != null) astroid.Explode();

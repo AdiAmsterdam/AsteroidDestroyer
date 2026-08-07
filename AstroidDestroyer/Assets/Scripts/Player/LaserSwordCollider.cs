@@ -1,11 +1,25 @@
+using System;
+using DefaultNamespace;
 using UnityEngine;
 
 public class LaserSwordCollider : MonoBehaviour
 {
+    private Score playerScore;
+    [SerializeField] private AudioClip laserSwordHit;
+
+    private void Awake()
+    {
+        playerScore = GetComponentInParent<Score>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Laser Sword Hit");
         if (other.CompareTag("Astroid"))
-            Destroy(other.transform.root.gameObject);
+        {
+            playerScore.AddScore(10);
+            AudioManager.audioManager.PlaySFX(AudioChannel.LaserSword, laserSwordHit);
+            Astroid astroid = other.GetComponent<Astroid>();
+            if (astroid != null) astroid.Evaporate();
+        }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections;
+using DefaultNamespace;
 using Player;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -25,7 +26,8 @@ public class ShipMovement : MonoBehaviour
 
     private EnergySystem energySystem;
 
-    [SerializeField] AudioClip EngineSound;
+    [SerializeField] private AudioClip engineSound;
+    [SerializeField] private AudioClip explosionSound;
 
     public float acceleration = 2f;
     public float maxSpeed = 5f;
@@ -35,6 +37,7 @@ public class ShipMovement : MonoBehaviour
     private bool dash;
     private float rotation;
     private bool isMoving;
+    public bool hitBorder;
 
     public Rigidbody2D rb { get; private set; }
 
@@ -44,6 +47,7 @@ public class ShipMovement : MonoBehaviour
 
     private void Awake()
     {
+        hitBorder = false;
         energySystem = GetComponent<EnergySystem>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -64,14 +68,18 @@ public class ShipMovement : MonoBehaviour
             pauseMenu.PauseGame();
         }
 
-        ReadInput();
-        HandleThrustSound();
-        EngineParticlesControl();
+        if (!hitBorder)
+        {
+            ReadInput();
+            HandleThrustSound();
+            EngineParticlesControl();
+        }
 
     }
 
     void FixedUpdate()
     {
+        if (hitBorder) return;
         if(health.IsDead()) return;
         MoveShip();
     }
@@ -124,7 +132,7 @@ public class ShipMovement : MonoBehaviour
         isMoving = thrust || dash;
         if (isMoving)
         {
-            AudioManager.audioManager.PlayEngineSound(EngineSound);
+            AudioManager.audioManager.PlayEngineSound(engineSound);
         }
         else AudioManager.audioManager.StopEngineSound();
     }
@@ -196,15 +204,20 @@ public class ShipMovement : MonoBehaviour
         BodyCollider.enabled = false;
         foreach (Transform point in explosionPoints)
         {
-            Instantiate(
-                explosionPrefab,
-                point.position,
-                Quaternion.identity
-            );
-
+            Instantiate(explosionPrefab, point.position, Quaternion.identity);
+            AudioManager.audioManager.PlaySFX(AudioChannel.Ship, explosionSound);
             yield return new WaitForSeconds(0.3f);
         }
         Destroy(gameObject);
+    }
+    
+    public void StopMovement()
+    {
+        thrust = false;
+        dash = false;
+        AudioManager.audioManager.StopEngineSound();
+        if(engineParticles.isPlaying) engineParticles.Stop();
+        if(dashParticles.isPlaying) dashParticles.Stop();
     }
 }
 

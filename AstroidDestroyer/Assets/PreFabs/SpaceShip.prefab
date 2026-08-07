@@ -46,12 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.LaserSword
   laserSword: {fileID: 1120878351621638352}
-  EnergyDrain: 15
-  startSound: {fileID: 0}
-  swordHumLoop: {fileID: 0}
-  closeSound: {fileID: 0}
+  startSound: {fileID: 8300000, guid: ef257660b1c7de147b6b1835562b2ccf, type: 3}
+  swordHumLoop: {fileID: 8300000, guid: 63f9b503277bb4a4c81a42a36fa5db3f, type: 3}
+  closeSound: {fileID: 8300000, guid: 9a0de72051b5c6545bdd091c0b16c8a7, type: 3}
   laserRange: 200
-  SwordCollider: {fileID: 0}
+  SwordCollider: {fileID: 5192447790818792818}
 --- !u!1 &1132122015340276331
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,7 +4932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.Gun
   bulletPrefab: {fileID: 6664333168313525199, guid: ae5a00830d997a54ea5a4fbea0ca8eaf, type: 3}
-  gunSound: {fileID: 8300000, guid: e00e8b2bef38087429c640342e31b3e1, type: 3}
+  gunSound: {fileID: 8300000, guid: 23d80b5297162e9459fea98d1bec36f4, type: 3}
   fireRate: 0.5
 --- !u!1 &2003926676938178526
 GameObject:
@@ -9909,7 +9908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.Gun
   bulletPrefab: {fileID: 6664333168313525199, guid: ae5a00830d997a54ea5a4fbea0ca8eaf, type: 3}
-  gunSound: {fileID: 8300000, guid: e00e8b2bef38087429c640342e31b3e1, type: 3}
+  gunSound: {fileID: 8300000, guid: 23d80b5297162e9459fea98d1bec36f4, type: 3}
   fireRate: 0.5
 --- !u!1 &5836310817883772764
 GameObject:
@@ -10026,6 +10025,7 @@ GameObject:
   - component: {fileID: 7966151553888953857}
   - component: {fileID: 136428478600477058}
   - component: {fileID: 8725481114500614613}
+  - component: {fileID: 506002821840691525}
   m_Layer: 6
   m_Name: SpaceShip
   m_TagString: Player
@@ -10139,11 +10139,13 @@ MonoBehaviour:
   magnetRadius: 0
   MagnetCollider: {fileID: 7966151553888953857}
   BodyCollider: {fileID: 8725481114500614613}
-  EngineSound: {fileID: 8300000, guid: 216e3cbf1b6702f4db416b86ed361d38, type: 3}
+  engineSound: {fileID: 8300000, guid: 216e3cbf1b6702f4db416b86ed361d38, type: 3}
+  explosionSound: {fileID: 8300000, guid: b05b650f9a875fc4c878e3e2b69936d4, type: 3}
   acceleration: 2
   maxSpeed: 4
   dashSpeed: 7
   dashEnergyDrain: 30
+  hitBorder: 0
   rotationSpeed: 100
   pauseMenu: {fileID: 0}
 --- !u!114 &7765368260745555451
@@ -10158,6 +10160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9257fadff82c48448a70771b513bbc39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.Health
+  DamageSound: {fileID: 8300000, guid: 49e2e0f2ba01de543b9db6245cf342e3, type: 3}
   hud: {fileID: 0}
 --- !u!114 &2387012387027100171
 MonoBehaviour:
@@ -10185,7 +10188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba612bc19d0849c2be30abc741de54e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  hud: {fileID: 0}
 --- !u!58 &7966151553888953857
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10308,6 +10310,28 @@ PolygonCollider2D:
       - {x: 0.17551368, y: -0.2913248}
       - {x: 0.39178845, y: -0.34456357}
   m_UseDelaunayMesh: 1
+--- !u!95 &506002821840691525
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384420483329000664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89a30d39fef83544ea5d2d43559405d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1120878351615677398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10368,6 +10392,14 @@ PrefabInstance:
       propertyPath: m_lightSaberFactor
       value: 0.898
       objectReference: {fileID: 0}
+    - target: {fileID: 606749475426350889, guid: 11530f2b0a0cd2442949827ecbb622f2, type: 3}
+      propertyPath: poofSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 77e5e267fad9dd24b90119197bafd45f, type: 3}
+    - target: {fileID: 606749475426350889, guid: 11530f2b0a0cd2442949827ecbb622f2, type: 3}
+      propertyPath: laserSwordHit
+      value: 
+      objectReference: {fileID: 8300000, guid: f717f93fcd9c6c9499dc06f956b7bfc0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10389,3 +10421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0884dceb0d4308c4eb8bc763c8f8deae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &5192447790818792818 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 5152521689212274340, guid: 11530f2b0a0cd2442949827ecbb622f2, type: 3}
+  m_PrefabInstance: {fileID: 1120878351615677398}
+  m_PrefabAsset: {fileID: 0}

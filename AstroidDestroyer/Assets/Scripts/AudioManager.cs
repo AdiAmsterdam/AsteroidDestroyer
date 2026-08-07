@@ -6,11 +6,14 @@ public class AudioManager : MonoBehaviour
     //maybe adding an audio chanel enum to make it easier to produce sounds
     public static AudioManager audioManager;
     
+    [SerializeField] private AudioSource shipSource;
     [SerializeField] private AudioSource gunSource;
     [SerializeField] private AudioSource engineSource;
     
     [SerializeField] private AudioSource laserSwordSource;
     [SerializeField] private AudioSource laserSwordLoopSource;
+    
+    [SerializeField] private AudioSource astroidSource;
     
     void Awake()
     {
@@ -34,6 +37,12 @@ public class AudioManager : MonoBehaviour
                 break;
             case AudioChannel.LaserSword:
                 PlayLaserSwordSound(clip);
+                break;
+            case AudioChannel.Astroid:
+                PlayAstroidSound(clip);
+                break;
+            case AudioChannel.Ship:
+                PlayShipSound(clip);
                 break;
         }
     }
@@ -61,7 +70,8 @@ public class AudioManager : MonoBehaviour
     
     private void PlayGunSound(AudioClip clip)
     {
-        if(!gunSource || !clip) return; 
+        if(!gunSource || !clip) return;
+        gunSource.volume = 0.1f;
         gunSource.pitch = Random.Range(0.95f, 1.2f);
         gunSource.PlayOneShot(clip);
     }
@@ -79,16 +89,31 @@ public class AudioManager : MonoBehaviour
     private void PlayLaserSwordSound(AudioClip clip)
     {
         if(!laserSwordSource || !clip) return; 
+        laserSwordSource.volume = 0.5f;
         laserSwordSource.PlayOneShot(clip);
     }
     
     public void PlayLaserSwordLoop(AudioClip clip)
     {
-        PlayLoop(laserSwordLoopSource, clip, 0.3f);
+        PlayLoop(laserSwordLoopSource, clip, 0.2f);
     }
 
     public void StopLaserSwordLoop()
     {
         StopLoop(laserSwordLoopSource);
+    }
+    
+    private void PlayAstroidSound(AudioClip clip)
+    {
+        if(!astroidSource || !clip) return; 
+        astroidSource.volume = 0.5f;
+        astroidSource.PlayOneShot(clip);
+    }
+
+    private void PlayShipSound(AudioClip clip)
+    {
+        if (!shipSource || !clip) return;
+        shipSource.volume = 0.7f;
+        shipSource.PlayOneShot(clip);
     }
 }

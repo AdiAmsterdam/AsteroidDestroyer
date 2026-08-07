@@ -1,12 +1,20 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Health : MonoBehaviour
 {
-
+    private ShipMovement shipMovement;
+    private Animator animator;
+    private string takeDamageTrigger = "TakeDamage";
+    private bool isHurt;
+    
+    [SerializeField] private AudioClip DamageSound;
+    
     private int batteryAmount = 3;
     private int chargePerBattery = 4;
     private List<int> batteries;
@@ -14,6 +22,8 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
+        shipMovement = GetComponent<ShipMovement>();
+        animator = GetComponent<Animator>();
         batteries = new List<int>(batteryAmount);
         for (int i = 0; i < batteryAmount; i++)
         {
@@ -33,6 +43,8 @@ public class Health : MonoBehaviour
 
     public void TakeDamage()//Player takes damage
     {
+        if (isHurt) return;
+        AudioManager.audioManager.PlaySFX(AudioChannel.Ship, DamageSound);
         for (int i = batteries.Count - 1; i >= 0; i--)
         {
             if (batteries[i] > 0)
@@ -42,6 +54,8 @@ public class Health : MonoBehaviour
             }
         }
         hud.UpdateHealth(batteries);
+        DisableOnDamage();
+        animator.SetTrigger(takeDamageTrigger);
     }
 
     public void AddHealth() //Adding health
@@ -67,4 +81,28 @@ public class Health : MonoBehaviour
         return true;
     }
 
+    public void DisableOnDamage()
+    {
+        isHurt = true;
+        shipMovement.BodyCollider.enabled = false;
+        shipMovement.MagnetCollider.enabled = false;
+    }
+
+    public void HurtAnimationFinished()
+    {
+        isHurt = false;
+        shipMovement.BodyCollider.enabled = true;
+        shipMovement.MagnetCollider.enabled = true;
+    }
+
+    public int GetActiveBatteryAmount()
+    {
+        int count = 0;
+        for (int i = 0; i < batteries.Count; i++)
+        {
+            if (batteries[i] == 0) return count;
+            count++;
+        }
+        return count;
+    }
 }

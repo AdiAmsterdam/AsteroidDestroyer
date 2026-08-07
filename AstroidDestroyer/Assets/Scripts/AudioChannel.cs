@@ -5,6 +5,8 @@
         Gun,
         Engine,
         LaserSword,
-        LaserSwordLoop
+        LaserSwordLoop,
+        Astroid,
+        Ship
     }
 }
