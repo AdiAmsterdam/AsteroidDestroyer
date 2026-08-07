@@ -54,7 +54,6 @@ public class ShipMovement : MonoBehaviour
 
     void Start()
     {
-        Time.timeScale = 0;
         health = GetComponent<Health>();
         magnetRadius = MagnetCollider.bounds.extents.magnitude;
     }

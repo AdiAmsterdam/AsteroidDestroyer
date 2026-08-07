@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public StartMenu startMenu;
 
     private void Start()
     {
@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
     public void OnQuitButtonClick()
     {
         gameObject.SetActive(false);
-        startMenu.gameObject.SetActive(true);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void PauseGame()
