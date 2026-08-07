@@ -12,7 +12,7 @@ public class Astroid : MonoBehaviour
     [SerializeField] private ParticleSystem explosionPrefab;
     [SerializeField] private ParticleSystem debrisPrefab;
     [SerializeField] private BatteryPickup batteryPickupPrefab;
-    private int pickupDropChance = 10;
+    private int pickupDropChance = 3;
     
     [SerializeField] private AudioClip evaporateSound;
     [SerializeField] private AudioClip explosionSound;

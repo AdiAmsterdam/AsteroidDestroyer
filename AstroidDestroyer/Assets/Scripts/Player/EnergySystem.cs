@@ -8,7 +8,7 @@ namespace Player
         [SerializeField] private float maxEnergy = 100f;
         [SerializeField] private float rechargeSpeed = 5f;
         private float currentEnergy;
-        private bool isOverheating;
+        public bool isOverheating { get; private set;}
        
 
         void Awake()

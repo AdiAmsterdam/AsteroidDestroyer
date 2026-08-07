@@ -14,8 +14,8 @@ namespace Player
         private Health fullBatteries;
         
         private EnergySystem energySystem;
-        private float swordOpenEnergySpent = 15f;
-        private float swordActiveEnergySpent = 7f;
+        private float swordOpenEnergySpent = 30f;
+        private float swordActiveEnergySpent = 15f;
         
         private Coroutine swordRoutine;
 
@@ -48,9 +48,12 @@ namespace Player
             {
                 if (!energySystem.TrySpendEnergy(swordActiveEnergySpent * Time.deltaTime))
                 {
-                    if(swordRoutine == null) swordRoutine = StartCoroutine(CloseLaserSword());
+                    if(swordRoutine != null) swordRoutine = StartCoroutine(CloseLaserSword());
                 }
             }
+            
+            if (energySystem.isOverheating) return;
+            
             if (Keyboard.current.ctrlKey.wasPressedThisFrame)
             {
                 if (swordRoutine != null)
