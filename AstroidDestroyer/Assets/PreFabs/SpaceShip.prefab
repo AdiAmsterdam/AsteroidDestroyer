@@ -49,7 +49,6 @@ MonoBehaviour:
   startSound: {fileID: 8300000, guid: ef257660b1c7de147b6b1835562b2ccf, type: 3}
   swordHumLoop: {fileID: 8300000, guid: 63f9b503277bb4a4c81a42a36fa5db3f, type: 3}
   closeSound: {fileID: 8300000, guid: 9a0de72051b5c6545bdd091c0b16c8a7, type: 3}
-  laserRange: 200
   SwordCollider: {fileID: 5192447790818792818}
 --- !u!1 &1132122015340276331
 GameObject:
@@ -9910,6 +9909,75 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6664333168313525199, guid: ae5a00830d997a54ea5a4fbea0ca8eaf, type: 3}
   gunSound: {fileID: 8300000, guid: 23d80b5297162e9459fea98d1bec36f4, type: 3}
   fireRate: 0.5
+--- !u!1 &3609409120707582122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9034900431379257364}
+  - component: {fileID: 7723475965129487280}
+  m_Layer: 9
+  m_Name: BorderCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9034900431379257364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609409120707582122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8743931411366032035}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &7723475965129487280
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609409120707582122}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.004297495, y: -0.021487415}
+  m_Size: {x: 0.7034143, y: 0.93410516}
+  m_Direction: 0
 --- !u!1 &5836310817883772764
 GameObject:
   m_ObjectHideFlags: 0
@@ -10052,6 +10120,7 @@ Transform:
   - {fileID: 2849987381546269073}
   - {fileID: 6833553983385183438}
   - {fileID: 4828896610992321488}
+  - {fileID: 9034900431379257364}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4413124680407167416
@@ -10161,6 +10230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.Health
   DamageSound: {fileID: 8300000, guid: 49e2e0f2ba01de543b9db6245cf342e3, type: 3}
+  HealSound: {fileID: 8300000, guid: a024609abbdc84e4ba9bb9131c4286d9, type: 3}
   hud: {fileID: 0}
 --- !u!114 &2387012387027100171
 MonoBehaviour:

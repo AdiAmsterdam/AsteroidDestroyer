@@ -7,6 +7,6 @@
         LaserSword,
         LaserSwordLoop,
         Astroid,
-        Ship
+        Ship,
     }
 }

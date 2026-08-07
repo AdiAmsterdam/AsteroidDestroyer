@@ -6,6 +6,9 @@ public class AudioManager : MonoBehaviour
     //maybe adding an audio chanel enum to make it easier to produce sounds
     public static AudioManager audioManager;
     
+    [SerializeField] private AudioSource bgmSource;
+    [SerializeField] private AudioClip BGM;
+    
     [SerializeField] private AudioSource shipSource;
     [SerializeField] private AudioSource gunSource;
     [SerializeField] private AudioSource engineSource;
@@ -26,6 +29,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        audioManager.PlayLoop(bgmSource, BGM, 0.3f);
     }
 
     public void PlaySFX(AudioChannel channel, AudioClip clip)

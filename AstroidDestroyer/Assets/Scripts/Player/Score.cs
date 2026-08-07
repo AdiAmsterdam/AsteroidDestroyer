@@ -11,15 +11,7 @@ public class Score : MonoBehaviour
     {
         hud = FindFirstObjectByType<HUD>();
         score = 0;
-        hud.UpdateScore(score);
-    }
-    
-    void Update()
-    {
-        if (Mouse.current.rightButton.wasPressedThisFrame)
-        {
-            AddScore(100);
-        }
+        if (hud) hud.UpdateScore(score);
     }
     
     public void AddScore(int amount)//Adding score

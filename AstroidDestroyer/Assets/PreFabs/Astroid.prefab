@@ -106,9 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c03150039b26a42937408c1f563fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  playerScore: {fileID: 3544775281081715390, guid: 3cca8a0d3cac4ab4995089555dd956b9, type: 3}
   playerPos: {fileID: 8743931411366032035, guid: 3cca8a0d3cac4ab4995089555dd956b9, type: 3}
   explosionPrefab: {fileID: 4299428474104691981, guid: 4763f1bcc9012e54388432b1b8d595b2, type: 3}
+  debrisPrefab: {fileID: 2060426132864212847, guid: 5cc1a5dcbe829544fbd564ab0e0be17e, type: 3}
+  batteryPickupPrefab: {fileID: 3096279633522367687, guid: 237a6d8b2fb359043b79fa857562ca01, type: 3}
   evaporateSound: {fileID: 8300000, guid: 77e5e267fad9dd24b90119197bafd45f, type: 3}
   explosionSound: {fileID: 8300000, guid: b05b650f9a875fc4c878e3e2b69936d4, type: 3}
   speed: 1

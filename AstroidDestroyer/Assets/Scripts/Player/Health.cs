@@ -1,8 +1,5 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using DefaultNamespace;
-using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +11,7 @@ public class Health : MonoBehaviour
     private bool isHurt;
     
     [SerializeField] private AudioClip DamageSound;
+    [SerializeField] private AudioClip HealSound;
     
     private int batteryAmount = 3;
     private int chargePerBattery = 4;
@@ -60,6 +58,7 @@ public class Health : MonoBehaviour
 
     public void AddHealth() //Adding health
     {
+        AudioManager.audioManager.PlaySFX(AudioChannel.Ship, HealSound);
         for (int i = 0; i < batteries.Count; i++)
         {
             if (batteries[i] == 0) return;

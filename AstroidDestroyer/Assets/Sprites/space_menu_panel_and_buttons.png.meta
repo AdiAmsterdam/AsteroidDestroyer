@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: a56905478a7cfa04998761371faa0eba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -243368659497717687
+    second: space_menu_panel_and_buttons_0
+  - first:
+      213: -877151417420616570
+    second: space_menu_panel_and_buttons_1
+  - first:
+      213: -2379455606648318852
+    second: space_menu_panel_and_buttons_2
+  - first:
+      213: 8592410547748400697
+    second: space_menu_panel_and_buttons_3
+  - first:
+      213: 6524316969875054844
+    second: space_menu_panel_and_buttons_4
+  - first:
+      213: -3866151208242974335
+    second: space_menu_panel_and_buttons_5
+  - first:
+      213: 179723997014901724
+    second: space_menu_panel_and_buttons_6
+  - first:
+      213: -6738818177403745617
+    second: space_menu_panel_and_buttons_7
+  - first:
+      213: 2019224484592773360
+    second: space_menu_panel_and_buttons_8
+  - first:
+      213: -6343441420646495355
+    second: space_menu_panel_and_buttons_9
+  - first:
+      213: 8932957067438894386
+    second: space_menu_panel_and_buttons_10
+  - first:
+      213: 105753689721958446
+    second: space_menu_panel_and_buttons_11
+  - first:
+      213: -8128269329947090054
+    second: space_menu_panel_and_buttons_12
+  - first:
+      213: -6520804465072133298
+    second: space_menu_panel_and_buttons_13
+  - first:
+      213: -5165696604968523672
+    second: space_menu_panel_and_buttons_14
+  - first:
+      213: -1426633743673385035
+    second: space_menu_panel_and_buttons_15
+  - first:
+      213: -3556332841882919724
+    second: space_menu_panel_and_buttons_16
+  - first:
+      213: 4864991574577059868
+    second: space_menu_panel_and_buttons_17
+  - first:
+      213: -5382117693962000342
+    second: space_menu_panel_and_buttons_18
+  - first:
+      213: -379049899067284626
+    second: space_menu_panel_and_buttons_19
+  - first:
+      213: 3646302820604380454
+    second: space_menu_panel_and_buttons_20
+  - first:
+      213: -2897817297152642368
+    second: space_menu_panel_and_buttons_21
+  - first:
+      213: -872747944126105985
+    second: space_menu_panel_and_buttons_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1194
+        width: 2412
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940fc2d5e716f9cf0800000000000000
+      internalID: -243368659497717687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1095
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ce966ee6bb3d3f0800000000000000
+      internalID: -877151417420616570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c745aee8bb97afed0800000000000000
+      internalID: -2379455606648318852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93eecde5edf5e3770800000000000000
+      internalID: 8592410547748400697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_4
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1095
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0a47f77b70b8a50800000000000000
+      internalID: 6524316969875054844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181fab8b5fba85ac0800000000000000
+      internalID: -3866151208242974335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_6
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1095
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3cfa7e5028e7200800000000000000
+      internalID: 179723997014901724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1095
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa87e94298ea72a0800000000000000
+      internalID: -6738818177403745617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_8
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f86ced68f9b50c10800000000000000
+      internalID: 2019224484592773360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_9
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1095
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bcddc03a197f7a0800000000000000
+      internalID: -6343441420646495355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_10
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23da28ebf1d38fb70800000000000000
+      internalID: 8932957067438894386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1095
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e207095ab66b77100800000000000000
+      internalID: 105753689721958446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_12
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a732dcd1c16923f80800000000000000
+      internalID: -8128269329947090054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_13
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1095
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b289143e27185a0800000000000000
+      internalID: -6520804465072133298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_14
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1095
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868e86b8e42cf48b0800000000000000
+      internalID: -5165696604968523672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_15
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1095
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf13c33b24933ce0800000000000000
+      internalID: -1426633743673385035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_16
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1095
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc53806f1e55aec0800000000000000
+      internalID: -3556332841882919724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 755
+        width: 810
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c181fedaf0ce38340800000000000000
+      internalID: 4864991574577059868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_18
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 753
+        width: 814
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28ec081970ee45b0800000000000000
+      internalID: -5382117693962000342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 395
+        width: 810
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6362f500285dbaf0800000000000000
+      internalID: -379049899067284626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_20
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 393
+        width: 814
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62501ada8154a9230800000000000000
+      internalID: 3646302820604380454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 35
+        width: 810
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2fb338582e8c7d0800000000000000
+      internalID: -2897817297152642368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_menu_panel_and_buttons_22
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 33
+        width: 814
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7639eb6e5063e3f0800000000000000
+      internalID: -872747944126105985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      space_menu_panel_and_buttons_0: -243368659497717687
+      space_menu_panel_and_buttons_1: -877151417420616570
+      space_menu_panel_and_buttons_10: 8932957067438894386
+      space_menu_panel_and_buttons_11: 105753689721958446
+      space_menu_panel_and_buttons_12: -8128269329947090054
+      space_menu_panel_and_buttons_13: -6520804465072133298
+      space_menu_panel_and_buttons_14: -5165696604968523672
+      space_menu_panel_and_buttons_15: -1426633743673385035
+      space_menu_panel_and_buttons_16: -3556332841882919724
+      space_menu_panel_and_buttons_17: 4864991574577059868
+      space_menu_panel_and_buttons_18: -5382117693962000342
+      space_menu_panel_and_buttons_19: -379049899067284626
+      space_menu_panel_and_buttons_2: -2379455606648318852
+      space_menu_panel_and_buttons_20: 3646302820604380454
+      space_menu_panel_and_buttons_21: -2897817297152642368
+      space_menu_panel_and_buttons_22: -872747944126105985
+      space_menu_panel_and_buttons_3: 8592410547748400697
+      space_menu_panel_and_buttons_4: 6524316969875054844
+      space_menu_panel_and_buttons_5: -3866151208242974335
+      space_menu_panel_and_buttons_6: 179723997014901724
+      space_menu_panel_and_buttons_7: -6738818177403745617
+      space_menu_panel_and_buttons_8: 2019224484592773360
+      space_menu_panel_and_buttons_9: -6343441420646495355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

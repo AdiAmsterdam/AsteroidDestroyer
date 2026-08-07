@@ -1,5 +1,6 @@
 using System;
 using DefaultNamespace;
+using Player;
 using Unity.VisualScripting;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -9,6 +10,9 @@ public class Astroid : MonoBehaviour
     
     [SerializeField] private Transform playerPos;
     [SerializeField] private ParticleSystem explosionPrefab;
+    [SerializeField] private ParticleSystem debrisPrefab;
+    [SerializeField] private BatteryPickup batteryPickupPrefab;
+    private int pickupDropChance = 10;
     
     [SerializeField] private AudioClip evaporateSound;
     [SerializeField] private AudioClip explosionSound;
@@ -38,13 +42,15 @@ public class Astroid : MonoBehaviour
     {
         AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, explosionSound);
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        if (WillPickupSpawn()) Instantiate(batteryPickupPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
     public void Evaporate()
     {
         AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, evaporateSound);
-        //add particles
+        Instantiate(debrisPrefab, transform.position, Quaternion.identity);
+        if (WillPickupSpawn()) Instantiate(batteryPickupPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
     
@@ -54,7 +60,9 @@ public class Astroid : MonoBehaviour
         transform.localScale = new Vector3(astroidScale, astroidScale, astroidScale);
     }
 
-   
-
-    
+    private bool WillPickupSpawn()
+    {
+        if (Random.Range(1, 100) <= pickupDropChance) return true;
+        return false;
+    }
 }

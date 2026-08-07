@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 51bf34c95f7d87541a613ccceeda5844
+guid: 0bb6298b1100a19448bc2883dc92c57f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7458413224762040988
-    second: mini-heart_0
-  - first:
-      213: -3884846035463382357
-    second: mini-heart_1
+      213: -2840728139919606810
+    second: battery_health_pickup_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mini-heart_0
+      name: battery_health_pickup_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 10
-        height: 9
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 483
+        y: 84
+        width: 1754
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46d9bfd30b46e7890800000000000000
-      internalID: -7458413224762040988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mini-heart_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 4
-        width: 10
-        height: 9
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: baade111d11461ac0800000000000000
-      internalID: -3884846035463382357
+      spriteID: 6ebb2acbec4b398d0800000000000000
+      internalID: -2840728139919606810
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 36bdd546d1800bb4ab054b42256f7c68
+    spriteID: 6abd48c76948a0b4990bdb931c5ed0f2
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mini-heart_0: -7458413224762040988
-      mini-heart_1: -3884846035463382357
+      battery_health_pickup_0: -2840728139919606810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
