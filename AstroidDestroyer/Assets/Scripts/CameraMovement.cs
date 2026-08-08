@@ -17,12 +17,15 @@ public class CameraMovement : MonoBehaviour
     }
     void LateUpdate()
     {
-        Vector3 targetPosition = player.position;
+        if(player)
+        {
+            Vector3 targetPosition = player.position;
 
-        targetPosition += (Vector3)playerRB.linearVelocity.normalized * lookAheadDistance;
+            targetPosition += (Vector3)playerRB.linearVelocity.normalized * lookAheadDistance;
 
-        targetPosition.z = transform.position.z;
+            targetPosition.z = transform.position.z;
 
-        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+        }
     }
 }

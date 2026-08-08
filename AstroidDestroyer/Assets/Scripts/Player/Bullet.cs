@@ -1,6 +1,8 @@
 using System;
+using System.Diagnostics;
 using Unity.VisualScripting;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class Bullet : MonoBehaviour
 {
@@ -53,9 +55,18 @@ public class Bullet : MonoBehaviour
         if (collider2D.CompareTag("Astroid"))
         {
             playerScore.AddScore(10);
-            Debug.Log("Bullet Hit");
+            Debug.Log("Bullet Hit Astroid");
             Astroid astroid = collider2D.GetComponent<Astroid>();
             if (astroid != null) astroid.Explode();
+            Destroy(gameObject);
+        }
+        
+        if (collider2D.CompareTag("Debris"))
+        {
+            playerScore.AddScore(10);
+            Debug.Log("Bullet Hit Astroid");
+            Debris debris = collider2D.GetComponent<Debris>();
+            if (debris != null) debris.Explode();
             Destroy(gameObject);
         }
     }

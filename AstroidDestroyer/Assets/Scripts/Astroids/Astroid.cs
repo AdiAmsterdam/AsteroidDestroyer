@@ -9,9 +9,10 @@ public class Astroid : MonoBehaviour
 {
     
     [SerializeField] private Transform playerPos;
-    [SerializeField] private ParticleSystem explosionPrefab;
-    [SerializeField] private ParticleSystem debrisPrefab;
+    [SerializeField] private ParticleSystem explosionPrefabParticle;
+    [SerializeField] private ParticleSystem debrisPrefabParticle;
     [SerializeField] private BatteryPickup batteryPickupPrefab;
+    [SerializeField] private Debris debrisPrefab;
     private int pickupDropChance = 3;
     
     [SerializeField] private AudioClip evaporateSound;
@@ -41,7 +42,7 @@ public class Astroid : MonoBehaviour
     public void Explode()//Destroys the asteroid and create an explosion
     {
         AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, explosionSound);
-        Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Instantiate(explosionPrefabParticle, transform.position, Quaternion.identity);
         if (WillPickupSpawn()) Instantiate(batteryPickupPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
@@ -49,7 +50,7 @@ public class Astroid : MonoBehaviour
     public void Evaporate()
     {
         AudioManager.audioManager.PlaySFX(AudioChannel.Astroid, evaporateSound);
-        Instantiate(debrisPrefab, transform.position, Quaternion.identity);
+        Instantiate(debrisPrefabParticle, transform.position, Quaternion.identity);
         if (WillPickupSpawn()) Instantiate(batteryPickupPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
@@ -64,5 +65,21 @@ public class Astroid : MonoBehaviour
     {
         if (Random.Range(1, 100) <= pickupDropChance) return true;
         return false;
+    }
+
+    void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        if (collider2D.CompareTag("Astroid"))
+        {
+            Debug.Log("Collision");
+            //Create the debris
+            for (int i = 0; i < 2; i++)
+            {
+                Instantiate(debrisPrefab, transform.position, Quaternion.Euler(0,0,0));
+            }
+            
+            Destroy(collider2D.gameObject);
+            Explode();
+        }
     }
 }

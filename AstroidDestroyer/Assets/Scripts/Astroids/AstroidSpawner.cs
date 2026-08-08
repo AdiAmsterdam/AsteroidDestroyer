@@ -11,8 +11,6 @@ public class AstroidSpawner : MonoBehaviour
     private float MaxXRange = 18f;
     private float MaxYRange = 5f;
 
-
-
     void SpawnAstroid()
     {
         float x = Random.Range(10, MaxXRange);
@@ -28,19 +26,20 @@ public class AstroidSpawner : MonoBehaviour
         Instantiate(AstroidPrefab, pos, transform.rotation);
     }
 
-    IEnumerator SpawnAstroids()
+    IEnumerator SpawnAstroids(Score playerScore)
     {
         while (true)
         {
             SpawnAstroid();
-            yield return new WaitForSeconds(spawnRate);
+            yield return new WaitForSeconds(spawnRate * Math.Clamp(playerScore.Score1/500,1,3));
         }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(SpawnAstroids());
+        Score playerScore = FindFirstObjectByType<Score>();
+        StartCoroutine(SpawnAstroids(playerScore));
     }
 
     // Update is called once per frame

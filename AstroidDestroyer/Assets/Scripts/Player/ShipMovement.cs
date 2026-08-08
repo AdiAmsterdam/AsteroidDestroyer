@@ -44,6 +44,8 @@ public class ShipMovement : MonoBehaviour
     public float rotationSpeed = 100f;
 
     public PauseMenu pauseMenu;
+    
+    public GameOverMenu gameOverMenu;
 
     private void Awake()
     {
@@ -138,7 +140,7 @@ public class ShipMovement : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider2D)
     {
-        if (collider2D.CompareTag("Astroid"))
+        if (collider2D.CompareTag("Astroid") || collider2D.CompareTag("Debris"))
         {
             //Debug.Log("Astroid Enter");
             Rigidbody2D rb = collider2D.GetComponent<Rigidbody2D>();
@@ -159,9 +161,18 @@ public class ShipMovement : MonoBehaviour
                 if (BodyCollider.IsTouching(collider2D))
                 {
                     health.TakeDamage();
-                    Astroid astroid = collider2D.GetComponent<Astroid>();
-                    if (astroid != null) astroid.Explode();
-                    if(health.IsDead()) ExplodeShip();
+                    if (collider2D.CompareTag("Astroid"))
+                    {
+                        Astroid astroid = collider2D.GetComponent<Astroid>();
+                        if (astroid != null) astroid.Explode();
+                        if (health.IsDead()) ExplodeShip();
+                    }
+                    if (collider2D.CompareTag("Debris"))
+                    {
+                        Debris debris = collider2D.GetComponent<Debris>();
+                        if (debris != null) debris.Explode();
+                        if (health.IsDead()) ExplodeShip();
+                    }
                 }
             }
         }
@@ -199,6 +210,7 @@ public class ShipMovement : MonoBehaviour
     
     IEnumerator ExplosionSequence()//Destroys the ship and create an explosion
     {
+        if(gameOverMenu) gameOverMenu.GameOverScreenActive();
         MagnetCollider.enabled = false;
         BodyCollider.enabled = false;
         foreach (Transform point in explosionPoints)
@@ -207,6 +219,7 @@ public class ShipMovement : MonoBehaviour
             AudioManager.audioManager.PlaySFX(AudioChannel.Ship, explosionSound);
             yield return new WaitForSeconds(0.3f);
         }
+        
         Destroy(gameObject);
     }
     

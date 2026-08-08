@@ -21,5 +21,13 @@ public class LaserSwordCollider : MonoBehaviour
             Astroid astroid = other.GetComponent<Astroid>();
             if (astroid != null) astroid.Evaporate();
         }
+        
+        if (other.CompareTag("Debris"))
+        {
+            playerScore.AddScore(5);
+            AudioManager.audioManager.PlaySFX(AudioChannel.LaserSword, laserSwordHit);
+            Debris debris = other.GetComponent<Debris>();
+            if (debris != null) debris.Evaporate();
+        }
     }
 }
